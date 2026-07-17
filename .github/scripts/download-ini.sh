@@ -9,6 +9,11 @@ urls=(
   "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/archived/Custom_Clash_Smart_Full.ini"
   "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/archived/Custom_Clash_Smart_GFW.ini"
   "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/archived/Custom_Clash_Smart_Lite.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash_Full.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash_GFW.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash_Lite.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash_Mainland.ini"
   
   "https://raw.githubusercontent.com/szkane/ClashRuleSet/main/Clash/kclash.ini"
   "https://raw.githubusercontent.com/liandu2024/clash/main/Cash-All.ini"
