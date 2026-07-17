@@ -4,6 +4,22 @@ source "$(dirname "$0")/lib_fetch.sh"
 echo "📦 Processing General Configs..."
 
 TASKS=$(cat <<'EOF'
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_DIY%26Airport.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_DIY&Airport.yaml
+
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/RuleAIO.yaml|THEYAMLS/General_Config/gog-xie/RuleAIO.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/RuleAIOPlus.yaml|THEYAMLS/General_Config/gog-xie/RuleAIOPlus.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/RuleAIOPro.yaml|THEYAMLS/General_Config/gog-xie/RuleAIOPro.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/RuleLite.yaml|THEYAMLS/General_Config/gog-xie/RuleLite.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/RuleLitePro.yaml|THEYAMLS/General_Config/gog-xie/RuleLitePro.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/GeoAIO.yaml|THEYAMLS/General_Config/gog-xie/GeoAIO.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/GeoAIOPro.yaml|THEYAMLS/General_Config/gog-xie/GeoAIOPro.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/GeoLite.yaml|THEYAMLS/General_Config/gog-xie/GeoLite.yaml
+https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/GeoLitePro.yaml|THEYAMLS/General_Config/gog-xie/GeoLitePro.yaml
+
+https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Yaml/Overwrite-Clash-Bypass.yaml|THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash-Bypass.yaml
+https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Yaml/Overwrite-Clash.yaml|THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash.yaml
+
 https://raw.githubusercontent.com/yiteei/Share/refs/heads/Proxy/config/redir-host.yaml|THEYAMLS/General_Config/Yiteei/redir-host_config.yaml
 https://raw.githubusercontent.com/yiteei/Share/refs/heads/Proxy/config/fake-ip.yaml|THEYAMLS/General_Config/Yiteei/fake-ip_config.yaml
 https://raw.githubusercontent.com/JohnsonRan/CRules/refs/heads/master/config/AIB.yaml|THEYAMLS/General_Config/JohnsonRan/AIB.yaml
