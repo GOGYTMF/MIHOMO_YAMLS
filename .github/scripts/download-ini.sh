@@ -5,6 +5,11 @@ echo "Processing INI Configs..."
 
 # 1. 定义本地特有的、肥羊配置中没有的固定下载列表
 urls=(
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/archived/Custom_Clash_Smart.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/archived/Custom_Clash_Smart_Full.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/archived/Custom_Clash_Smart_GFW.ini"
+  "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/cfg/archived/Custom_Clash_Smart_Lite.ini"
+  
   "https://raw.githubusercontent.com/szkane/ClashRuleSet/main/Clash/kclash.ini"
   "https://raw.githubusercontent.com/liandu2024/clash/main/Cash-All.ini"
   "https://raw.githubusercontent.com/liandu2024/clash/main/Clash-Full.ini"
