@@ -8,7 +8,7 @@
 
 | 特性 | `OneSmart_Config.yaml` | `OneSmart_Lite_Config.yaml` | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` | `smart.yaml` | `OneSmartProMCX.yaml` | `MihomoSmartAIO.yaml` | `THESmart.yaml` | `MihomoSmartProMax.yaml` | `MihomoSmartProPlus.yaml` | `clash-fallback-smart-std.yaml` | `clash-all-fallback-smart.yaml` | `clash-all-smart.yaml` | `mihomo_smart.yaml` |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 20.1 KB | 12.4 KB | 40.7 KB | 32.1 KB | 13.0 KB | 38.1 KB | 30.2 KB | 37.3 KB | 23.6 KB | 24.1 KB | 17.7 KB | 18.2 KB | 15.1 KB | 15.1 KB |
+| **大小** | 20.1 KB | 12.4 KB | 40.5 KB | 32.0 KB | 13.0 KB | 38.1 KB | 30.2 KB | 37.3 KB | 23.6 KB | 24.1 KB | 17.7 KB | 18.2 KB | 15.1 KB | 15.1 KB |
 | **混合端口** | 7893 | 7893 | 7893 | 7893 | 7890 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 0 |
 | **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | - | 0.0.0.0:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | - |
 | **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule |
@@ -276,7 +276,7 @@
 ### 👤 gog-xie
 
 #### 📝 RuleSmartAIO.yaml
-- **路径**: `gog-xie/RuleSmartAIO.yaml` | **大小**: 40.7 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/RuleSmartAIO.yaml)
+- **路径**: `gog-xie/RuleSmartAIO.yaml` | **大小**: 40.5 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/RuleSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
@@ -307,7 +307,7 @@
 </details>
 
 #### 📝 GeoSmartAIO.yaml
-- **路径**: `gog-xie/GeoSmartAIO.yaml` | **大小**: 32.1 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml)
+- **路径**: `gog-xie/GeoSmartAIO.yaml` | **大小**: 32.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>

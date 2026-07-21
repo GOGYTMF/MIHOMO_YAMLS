@@ -8,13 +8,13 @@
 
 | 特性 | `RuleAIOPlus.yaml` | `GeoAIOPro.yaml` | `GeoAIO.yaml` | `GeoLitePro.yaml` | `RuleAIOPro.yaml` | `RuleAIO.yaml` | `RuleLitePro.yaml` | `GeoLite.yaml` | `RuleLite.yaml` |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 47.4 KB | 38.6 KB | 32.1 KB | 30.2 KB | 47.1 KB | 40.4 KB | 34.5 KB | 24.0 KB | 28.5 KB |
+| **大小** | 47.4 KB | 38.4 KB | 32.0 KB | 30.0 KB | 46.9 KB | 40.2 KB | 34.3 KB | 24.0 KB | 28.3 KB |
 | **混合端口** | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 |
 | **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 |
 | **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule |
 | **TUN** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 |
-| **策略组** | **98** | **93** | **69** | **67** | **93** | **69** | **67** | **43** | **43** |
-| **规则数** | **70** | **70** | **70** | **44** | **70** | **70** | **44** | **44** | **44** |
+| **策略组** | **98** | **93** | **69** | **63** | **93** | **69** | **63** | **39** | **39** |
+| **规则数** | **70** | **70** | **70** | **41** | **70** | **70** | **41** | **41** | **41** |
 
 ## 📄 配置详情
 
@@ -50,7 +50,7 @@
 </details>
 
 #### 📝 GeoAIOPro.yaml
-- **路径**: `GeoAIOPro.yaml` | **大小**: 38.6 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIOPro.yaml)
+- **路径**: `GeoAIOPro.yaml` | **大小**: 38.4 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIOPro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (93个)</summary>
@@ -81,7 +81,7 @@
 </details>
 
 #### 📝 GeoAIO.yaml
-- **路径**: `GeoAIO.yaml` | **大小**: 32.1 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIO.yaml)
+- **路径**: `GeoAIO.yaml` | **大小**: 32.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
@@ -112,19 +112,15 @@
 </details>
 
 #### 📝 GeoLitePro.yaml
-- **路径**: `GeoLitePro.yaml` | **大小**: 30.2 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoLitePro.yaml)
+- **路径**: `GeoLitePro.yaml` | **大小**: 30.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoLitePro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (67个)</summary>
+<summary>🔍 策略组 (63个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
 | 👆 默认代理 | `select` |
 | 👆 默认直连 | `select` |
-| 👆 Github | `select` |
-| 👆 Docker | `select` |
-| 👆 微软服务 | `select` |
-| 👆 游戏平台 | `select` |
 | 🔧 故障转移 | `fallback` |
 | 👆 漏网之鱼 | `select` |
 | 👆 网络测试 | `select` |
@@ -139,11 +135,15 @@
 | 👆 冷门策略 | `select` |
 | ⚖️ [主] 香港-散列 | `load-balance` |
 | ⚖️ [主] 台湾-散列 | `load-balance` |
-| ... | 还有 47 个 |
+| ⚖️ [主] 狮城-散列 | `load-balance` |
+| ⚖️ [主] 日本-散列 | `load-balance` |
+| ⚖️ [主] 韩国-散列 | `load-balance` |
+| ⚖️ [主] 美国-散列 | `load-balance` |
+| ... | 还有 43 个 |
 </details>
 
 #### 📝 RuleAIOPro.yaml
-- **路径**: `RuleAIOPro.yaml` | **大小**: 47.1 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIOPro.yaml)
+- **路径**: `RuleAIOPro.yaml` | **大小**: 46.9 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIOPro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (93个)</summary>
@@ -174,7 +174,7 @@
 </details>
 
 #### 📝 RuleAIO.yaml
-- **路径**: `RuleAIO.yaml` | **大小**: 40.4 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIO.yaml)
+- **路径**: `RuleAIO.yaml` | **大小**: 40.2 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
@@ -205,19 +205,15 @@
 </details>
 
 #### 📝 RuleLitePro.yaml
-- **路径**: `RuleLitePro.yaml` | **大小**: 34.5 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLitePro.yaml)
+- **路径**: `RuleLitePro.yaml` | **大小**: 34.3 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLitePro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (67个)</summary>
+<summary>🔍 策略组 (63个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
 | 👆 默认代理 | `select` |
 | 👆 默认直连 | `select` |
-| 👆 Github | `select` |
-| 👆 Docker | `select` |
-| 👆 微软服务 | `select` |
-| 👆 游戏平台 | `select` |
 | 🔧 故障转移 | `fallback` |
 | 👆 漏网之鱼 | `select` |
 | 👆 网络测试 | `select` |
@@ -232,23 +228,23 @@
 | 👆 冷门策略 | `select` |
 | ⚖️ [主] 香港-散列 | `load-balance` |
 | ⚖️ [主] 台湾-散列 | `load-balance` |
-| ... | 还有 47 个 |
+| ⚖️ [主] 狮城-散列 | `load-balance` |
+| ⚖️ [主] 日本-散列 | `load-balance` |
+| ⚖️ [主] 韩国-散列 | `load-balance` |
+| ⚖️ [主] 美国-散列 | `load-balance` |
+| ... | 还有 43 个 |
 </details>
 
 #### 📝 GeoLite.yaml
 - **路径**: `GeoLite.yaml` | **大小**: 24.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoLite.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (43个)</summary>
+<summary>🔍 策略组 (39个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
 | 👆 默认代理 | `select` |
 | 👆 默认直连 | `select` |
-| 👆 Github | `select` |
-| 👆 Docker | `select` |
-| 👆 微软服务 | `select` |
-| 👆 游戏平台 | `select` |
 | 🔧 故障转移 | `fallback` |
 | 👆 漏网之鱼 | `select` |
 | 👆 网络测试 | `select` |
@@ -263,23 +259,23 @@
 | 👆 冷门策略 | `select` |
 | ⚖️ 香港均衡-散列 | `load-balance` |
 | ⚖️ 台湾均衡-散列 | `load-balance` |
-| ... | 还有 23 个 |
+| ⚖️ 狮城均衡-散列 | `load-balance` |
+| ⚖️ 日本均衡-散列 | `load-balance` |
+| ⚖️ 韩国均衡-散列 | `load-balance` |
+| ⚖️ 美国均衡-散列 | `load-balance` |
+| ... | 还有 19 个 |
 </details>
 
 #### 📝 RuleLite.yaml
-- **路径**: `RuleLite.yaml` | **大小**: 28.5 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLite.yaml)
+- **路径**: `RuleLite.yaml` | **大小**: 28.3 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLite.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (43个)</summary>
+<summary>🔍 策略组 (39个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
 | 👆 默认代理 | `select` |
 | 👆 默认直连 | `select` |
-| 👆 Github | `select` |
-| 👆 Docker | `select` |
-| 👆 微软服务 | `select` |
-| 👆 游戏平台 | `select` |
 | 🔧 故障转移 | `fallback` |
 | 👆 漏网之鱼 | `select` |
 | 👆 网络测试 | `select` |
@@ -294,5 +290,9 @@
 | 👆 冷门策略 | `select` |
 | ⚖️ 香港均衡-散列 | `load-balance` |
 | ⚖️ 台湾均衡-散列 | `load-balance` |
-| ... | 还有 23 个 |
+| ⚖️ 狮城均衡-散列 | `load-balance` |
+| ⚖️ 日本均衡-散列 | `load-balance` |
+| ⚖️ 韩国均衡-散列 | `load-balance` |
+| ⚖️ 美国均衡-散列 | `load-balance` |
+| ... | 还有 19 个 |
 </details>
