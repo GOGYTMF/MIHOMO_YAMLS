@@ -1,6 +1,6 @@
 # Clash.Meta(mihomo)
 # Version: v1.19.28
-# Updated: 2026-07-20 15:05:00
+# Updated: 2026-07-22 03:14:00
 
 JNTM: &JNTM
     interval: 43200
@@ -57,7 +57,7 @@ proxy-providers:
       additional-prefix: "2🐒"
     filter: "^(?!.*(114514))"
 
-#  Node-3: ...
+  # Node-3: 
 
   LandNode:
     type: file
@@ -133,10 +133,11 @@ dns:
 
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+  fake-ip-range6: fdfe:dcba:9876::1/64
   fake-ip-filter-mode: rule
   fake-ip-filter:
     - RULE-SET,private_geosite,real-ip
-    - MATCH,fake-ip
+    - MATCH,real-ip
 
   default-nameserver: 
     - https://1.1.1.1/dns-query
@@ -162,6 +163,11 @@ dns:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
     - https://dns.alidns.com/dns-query
+
+    # 'subscription domain': 
+    # - https://cloudflare-dns.com/dns-query
+    # - https://dns.google/dns-query
+    # - https://dns.alidns.com/dns-query
 
   nameserver:
     - https://cloudflare-dns.com/dns-query
@@ -713,6 +719,7 @@ proxy-groups:
 
   - name: 🟦手动选择
     type: select
+    default-selected: 🇺🇸手动选择
     proxies: [
               🇸🇬手动选择, 🇺🇸手动选择, 
               🇭🇰手动选择, 🇹🇼手动选择, 
@@ -737,6 +744,7 @@ proxy-groups:
 
   - name: 🟣故障转移
     type: select
+    default-selected: 🇺🇸故障转移
     proxies: [
               🇸🇬故障转移, 🇺🇸故障转移, 
               🇭🇰故障转移, 🇹🇼故障转移, 
@@ -761,6 +769,7 @@ proxy-groups:
 
   - name: 🔷自动选择
     type: select
+    default-selected: 🇺🇸自动选择
     proxies: [
               🇸🇬自动选择, 🇺🇸自动选择, 
               🇭🇰自动选择, 🇹🇼自动选择, 
