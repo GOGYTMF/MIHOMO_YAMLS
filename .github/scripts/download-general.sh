@@ -20,6 +20,7 @@ https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/GeoLitePro
 https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Yaml/Overwrite-Clash-Bypass.yaml|THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash-Bypass.yaml
 https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Yaml/Overwrite-Clash.yaml|THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash.yaml
 
+https://github.com/yiteei/Share/raw/dotfiles/.config/mihomo/config.yaml|THEYAMLS/General_Config/Yiteei/config.yaml
 https://raw.githubusercontent.com/yiteei/Share/refs/heads/Proxy/config/redir-host.yaml|THEYAMLS/General_Config/Yiteei/redir-host_config.yaml
 https://raw.githubusercontent.com/yiteei/Share/refs/heads/Proxy/config/fake-ip.yaml|THEYAMLS/General_Config/Yiteei/fake-ip_config.yaml
 https://raw.githubusercontent.com/JohnsonRan/CRules/refs/heads/master/config/AIB.yaml|THEYAMLS/General_Config/JohnsonRan/AIB.yaml
