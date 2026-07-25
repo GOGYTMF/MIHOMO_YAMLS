@@ -8,21 +8,21 @@
 
 | 特性 | `Custom_Clash.yaml` | `Custom_Clash_DIY&Airport.yaml` |
 | :--- | :--- | :--- |
-| **大小** | 30.1 KB | 17.9 KB |
-| **混合端口** | 7893 | - |
-| **面板地址** | 0.0.0.0:9090 | 127.0.0.1:9090 |
+| **大小** | 40.0 KB | 17.9 KB |
+| **混合端口** | - | - |
+| **面板地址** | - | 127.0.0.1:9090 |
 | **运行模式** | rule | rule |
-| **TUN** | ✅ | 🚫 |
-| **策略组** | **34** | **33** |
+| **TUN** | 🚫 | 🚫 |
+| **策略组** | **35** | **33** |
 | **规则数** | **47** | **51** |
 
 ## 📄 配置详情
 
 #### 📝 Custom_Clash.yaml
-- **路径**: `Custom_Clash.yaml` | **大小**: 30.1 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash.yaml)
-- **模式**: rule | **TUN**: ✅ | **IPv6**: ✅
+- **路径**: `Custom_Clash.yaml` | **大小**: 40.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash.yaml)
+- **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
-<summary>🔍 策略组 (34个)</summary>
+<summary>🔍 策略组 (35个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -46,7 +46,7 @@
 | 👆 🌎 国外媒体 | `select` |
 | 👆 🛒 国外电商 | `select` |
 | 👆 📢 谷歌FCM | `select` |
-| ... | 还有 14 个 |
+| ... | 还有 15 个 |
 </details>
 
 #### 📝 Custom_Clash_DIY&Airport.yaml

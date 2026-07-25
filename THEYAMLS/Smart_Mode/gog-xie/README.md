@@ -8,7 +8,7 @@
 
 | 特性 | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` |
 | :--- | :--- | :--- |
-| **大小** | 40.5 KB | 32.0 KB |
+| **大小** | 39.9 KB | 31.3 KB |
 | **混合端口** | 7893 | 7893 |
 | **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 |
 | **运行模式** | rule | rule |
@@ -19,7 +19,7 @@
 ## 📄 配置详情
 
 #### 📝 RuleSmartAIO.yaml
-- **路径**: `RuleSmartAIO.yaml` | **大小**: 40.5 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/RuleSmartAIO.yaml)
+- **路径**: `RuleSmartAIO.yaml` | **大小**: 39.9 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/RuleSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
@@ -50,7 +50,7 @@
 </details>
 
 #### 📝 GeoSmartAIO.yaml
-- **路径**: `GeoSmartAIO.yaml` | **大小**: 32.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml)
+- **路径**: `GeoSmartAIO.yaml` | **大小**: 31.3 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
