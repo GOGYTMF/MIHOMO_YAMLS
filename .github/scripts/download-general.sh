@@ -16,15 +16,15 @@ https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_
 https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Selfhosted_Manual_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Manual_Fallback.yaml
 https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Selfhosted_Provider_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Provider_Fallback.yaml
 
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/RuleAIO.yaml|THEYAMLS/General_Config/GOGYTMF/RuleAIO.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/RuleAIOPlus.yaml|THEYAMLS/General_Config/GOGYTMF/RuleAIOPlus.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/RuleAIOPro.yaml|THEYAMLS/General_Config/GOGYTMF/RuleAIOPro.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/RuleLite.yaml|THEYAMLS/General_Config/GOGYTMF/RuleLite.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/RuleLitePro.yaml|THEYAMLS/General_Config/GOGYTMF/RuleLitePro.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/GeoAIO.yaml|THEYAMLS/General_Config/GOGYTMF/GeoAIO.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/GeoAIOPro.yaml|THEYAMLS/General_Config/GOGYTMF/GeoAIOPro.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/GeoLite.yaml|THEYAMLS/General_Config/GOGYTMF/GeoLite.yaml
-https://raw.githubusercontent.com/GOGYTMF/Mihomo/refs/heads/main/yaml/GeoLitePro.yaml|THEYAMLS/General_Config/GOGYTMF/GeoLitePro.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleAIO.yaml|THEYAMLS/General_Config/gogyt/RuleAIO.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleAIOPlus.yaml|THEYAMLS/General_Config/gogyt/RuleAIOPlus.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleAIOPro.yaml|THEYAMLS/General_Config/gogyt/RuleAIOPro.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleLite.yaml|THEYAMLS/General_Config/gogyt/RuleLite.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleLitePro.yaml|THEYAMLS/General_Config/gogyt/RuleLitePro.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/GeoAIO.yaml|THEYAMLS/General_Config/gogyt/GeoAIO.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/GeoAIOPro.yaml|THEYAMLS/General_Config/gogyt/GeoAIOPro.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/GeoLite.yaml|THEYAMLS/General_Config/gogyt/GeoLite.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/GeoLitePro.yaml|THEYAMLS/General_Config/gogyt/GeoLitePro.yaml
 
 https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Yaml/Overwrite-Clash-Bypass.yaml|THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash-Bypass.yaml
 https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Yaml/Overwrite-Clash.yaml|THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash.yaml
