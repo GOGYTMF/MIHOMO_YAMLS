@@ -4,8 +4,17 @@ source "$(dirname "$0")/lib_fetch.sh"
 echo "📦 Processing General Configs..."
 
 TASKS=$(cat <<'EOF'
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Complete_YAML_Configuration_Template.yaml|THEYAMLS/General_Config/Aethersailor/Complete_YAML_Configuration_Template.yaml
 https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash.yaml
-https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_DIY%26Airport.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_DIY&Airport.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Fallback.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Full.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Full_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full_Fallback.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_GFW.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_GFW.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_GFW_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_GFW_Fallback.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Lite.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Lite.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Lite_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Lite_Fallback.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Selfhosted_Manual_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Manual_Fallback.yaml
+https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Selfhosted_Provider_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Provider_Fallback.yaml
 
 https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/RuleAIO.yaml|THEYAMLS/General_Config/gog-xie/RuleAIO.yaml
 https://raw.githubusercontent.com/gog-xie/Mihomo/refs/heads/main/yaml/RuleAIOPlus.yaml|THEYAMLS/General_Config/gog-xie/RuleAIOPlus.yaml
