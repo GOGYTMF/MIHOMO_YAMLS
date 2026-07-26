@@ -1,6 +1,6 @@
 # OpenClash 覆写模块 - GeoSmartAIO.yaml
-# 生成日期：2026-07-21
-# 源文件：https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml
+# 生成日期：2026-07-26
+# 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
 # 本文件仅包含 [YAML] 块覆写内容，不含任何 [General] 插件设置。
@@ -135,7 +135,6 @@
 # - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
 #   name: 默认代理
 #   proxies:
-#   - 全球手动
 #   - 故障转移
 #   - 狮城策略
 #   - 美国策略
@@ -145,6 +144,7 @@
 #   - 韩国策略
 #   - 欧盟策略
 #   - 冷门策略
+#   - 全球手动
 #   - 直接连接
 #   type: select
 # - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Static.png
@@ -166,9 +166,8 @@
 # - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png
 #   name: Github
 #   proxies: &id001
-#   - 故障转移
 #   - 默认代理
-#   - 默认直连
+#   - 故障转移
 #   - 狮城策略
 #   - 美国策略
 #   - 香港策略
@@ -178,6 +177,7 @@
 #   - 欧盟策略
 #   - 冷门策略
 #   - 全球手动
+#   - 默认直连
 #   - 直接连接
 #   type: select
 # - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
@@ -259,6 +259,7 @@
 # - icon: https://testingcf.jsdelivr.net/gh/gog-xie/Qure@master/IconSet/Color/Docker.png
 #   name: Docker
 #   proxies: &id002
+#   - 直接连接
 #   - 默认直连
 #   - 默认代理
 #   - 故障转移
@@ -271,7 +272,6 @@
 #   - 欧盟策略
 #   - 冷门策略
 #   - 全球手动
-#   - 直接连接
 #   type: select
 # - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
 #   name: OneDrive
@@ -746,12 +746,12 @@
 #     interval: 86400
 #     type: http
 #     url: https://testingcf.jsdelivr.net/gh/gog-xie/Mihomo@main/rule/Steam_CDN_IP.mrs
-#   anti-ad:
+#   adblock:
 #     behavior: domain
-#     format: yaml
+#     format: mrs
 #     interval: 86400
 #     type: http
-#     url: https://testingcf.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-clash.yaml
+#     url: https://testingcf.jsdelivr.net/gh/gog-xie/Mihomo@main/geo/geosite/adblock.mrs
 #   fakeip-filter:
 #     behavior: domain
 #     format: mrs
@@ -773,8 +773,7 @@
 # rules:
 # - GEOSITE,category-ads-all,REJECT
 # - RULE-SET,AWAvenueAds,REJECT
-# - RULE-SET,anti-ad,REJECT
-# - GEOSITE,docker,Docker
+# - RULE-SET,adblock,REJECT
 # - RULE-SET,My_Direct,直接连接
 # - GEOSITE,private,直接连接
 # - GEOIP,private,直接连接,no-resolve
@@ -788,6 +787,7 @@
 # - GEOSITE,category-game-platforms-download,直接连接
 # - GEOSITE,category-public-tracker,直接连接
 # - GEOSITE,category-pt,直接连接
+# - GEOSITE,docker,Docker
 # - GEOSITE,bing@cn,直接连接
 # - GEOSITE,microsoft@cn,直接连接
 # - GEOSITE,onedrive,OneDrive
@@ -862,7 +862,6 @@
 #   - GEOSITE:cn
 #   - +.pub.3gppnetwork.org
 #   - +.bing.com
-#   - +.miwifi.com
 #   - +.docker.io
 #   - +.market.xiaomi.com
 #   - +.push.apple.com

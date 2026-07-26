@@ -1,6 +1,6 @@
 # OpenClash 覆写模块 - Proxy-override.yaml
-# 生成日期：2026-07-21
-# 源文件：https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/THEYAMLS/General_Config/Sgraqwq/Proxy-override.yaml
+# 生成日期：2026-07-26
+# 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/Sgraqwq/Proxy-override.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
 # 本文件仅包含 [YAML] 块覆写内容，不含任何 [General] 插件设置。
@@ -382,23 +382,6 @@
 # - GEOIP,private,DIRECT,no-resolve
 # - DOMAIN,localhost,DIRECT
 # - DOMAIN-SUFFIX,local,DIRECT
-# - PROCESS-NAME,WinStore.App.exe,DIRECT
-# - PROCESS-NAME,WinStore.Mobile.exe,DIRECT
-# - PROCESS-NAME,Weixin.exe,DIRECT
-# - PROCESS-NAME,WeChat.exe,DIRECT
-# - PROCESS-NAME,WeChatAppEx.exe,DIRECT
-# - PROCESS-NAME,QQ.exe,DIRECT
-# - PROCESS-NAME,SunloginClient.exe,DIRECT
-# - PROCESS-NAME,ToDesk.exe,DIRECT
-# - PROCESS-NAME,ToDesk_Service.exe,DIRECT
-# - PROCESS-NAME,rustdesk.exe,DIRECT
-# - PROCESS-NAME,TeamViewer.exe,DIRECT
-# - PROCESS-NAME,AnyDesk.exe,DIRECT
-# - PROCESS-NAME,tailscale.exe,DIRECT
-# - PROCESS-NAME,tailscaled.exe,DIRECT
-# - PROCESS-NAME,frpc.exe,DIRECT
-# - PROCESS-NAME,Navicat.exe,DIRECT
-# - PROCESS-NAME,cloudflared.exe,DIRECT
 # - DOMAIN-SUFFIX,jsdelivr.net,节点选择
 # - DOMAIN,dns.google,节点选择
 # - DOMAIN,dns.google.com,节点选择
@@ -606,7 +589,6 @@
 #   - +.time.apple.com
 #   - +.time.google.com
 #   - +.time.nist.gov
-#   - time.windows.com
 #   - ip.cip.cc
 #   - captive.apple.com
 #   - connectivitycheck.gstatic.com

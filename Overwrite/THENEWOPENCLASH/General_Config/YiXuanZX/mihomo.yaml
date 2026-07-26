@@ -1,6 +1,6 @@
 # OpenClash 覆写模块 - mihomo.yaml
-# 生成日期：2026-07-21
-# 源文件：https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/THEYAMLS/General_Config/YiXuanZX/mihomo.yaml
+# 生成日期：2026-07-26
+# 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/YiXuanZX/mihomo.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
 # 本文件仅包含 [YAML] 块覆写内容，不含任何 [General] 插件设置。
@@ -86,7 +86,7 @@
 #   provider1:
 #     header:
 #       User-Agent:
-#       - clash-verge/v2.5.0
+#       - clash-verge/v2.5.2
 #     health-check:
 #       enable: true
 #       interval: 300
@@ -330,10 +330,11 @@
 #
 # dns:
 #   default-nameserver:
-#   - https://223.6.6.6/dns-query
+#   - 223.5.5.5
 #   enable: true
 #   enhanced-mode: fake-ip
 #   fake-ip-filter:
+#   - '*'
 #   - +.market.xiaomi.com
 #   - lancache.steamcontent.com
 #   - rule-set:private
@@ -342,6 +343,8 @@
 #   nameserver:
 #   - 223.5.5.5
 #   nameserver-policy:
+#     '*':
+#     - system
 #     rule-set:china-list,cn:
 #     - 223.5.5.5
 #     rule-set:gfw:

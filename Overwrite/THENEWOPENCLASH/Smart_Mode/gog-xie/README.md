@@ -4,8 +4,8 @@
 
 | 文件名 | proxy-providers | Raw 链接 |
 | :--- | :--- | :--- |
-| **GeoSmartAIO.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/Smart_Mode/gog-xie/GeoSmartAIO.yaml) |
-| **RuleSmartAIO.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/Smart_Mode/gog-xie/RuleSmartAIO.yaml) |
+| **GeoSmartAIO.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/Smart_Mode/gog-xie/GeoSmartAIO.yaml) |
+| **RuleSmartAIO.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/Smart_Mode/gog-xie/RuleSmartAIO.yaml) |
 
 ---
 [🔙 返回总览](../README.md)

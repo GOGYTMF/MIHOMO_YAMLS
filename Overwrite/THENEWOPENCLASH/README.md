@@ -21,7 +21,7 @@
 | 📁 **[General_Config/666OS](./General_Config/666OS/README.md)** | 2 个 |
 | 📁 **[General_Config/AIsouler](./General_Config/AIsouler/README.md)** | 2 个 |
 | 📁 **[General_Config/Accademia](./General_Config/Accademia/README.md)** | 9 个 |
-| 📁 **[General_Config/Aethersailor](./General_Config/Aethersailor/README.md)** | 2 个 |
+| 📁 **[General_Config/Aethersailor](./General_Config/Aethersailor/README.md)** | 12 个 |
 | 📁 **[General_Config/Ayanami0-configs](./General_Config/Ayanami0-configs/README.md)** | 1 个 |
 | 📁 **[General_Config/ClashConnectRules](./General_Config/ClashConnectRules/README.md)** | 1 个 |
 | 📁 **[General_Config/Giveupmoon](./General_Config/Giveupmoon/README.md)** | 2 个 |
@@ -40,7 +40,7 @@
 | 📁 **[General_Config/bgpeer](./General_Config/bgpeer/README.md)** | 1 个 |
 | 📁 **[General_Config/echs-top](./General_Config/echs-top/README.md)** | 1 个 |
 | 📁 **[General_Config/fufu](./General_Config/fufu/README.md)** | 1 个 |
-| 📁 **[General_Config/gog-xie](./General_Config/gog-xie/README.md)** | 9 个 |
+| 📁 **[General_Config/gogyt](./General_Config/gogyt/README.md)** | 9 个 |
 | 📁 **[General_Config/iKeLee](./General_Config/iKeLee/README.md)** | 2 个 |
 | 📁 **[General_Config/liandu2024](./General_Config/liandu2024/README.md)** | 5 个 |
 | 📁 **[General_Config/liuran001](./General_Config/liuran001/README.md)** | 1 个 |
@@ -60,6 +60,7 @@
 | 📁 **[Smart_Mode/echs-top](./Smart_Mode/echs-top/README.md)** | 1 个 |
 | 📁 **[Smart_Mode/edison](./Smart_Mode/edison/README.md)** | 1 个 |
 | 📁 **[Smart_Mode/gog-xie](./Smart_Mode/gog-xie/README.md)** | 2 个 |
+| 📁 **[Smart_Mode/gogyt](./Smart_Mode/gogyt/README.md)** | 2 个 |
 | 📁 **[Smart_Mode/liandu2024](./Smart_Mode/liandu2024/README.md)** | 3 个 |
 | 📁 **[Smart_Mode/qichiyuhub](./Smart_Mode/qichiyuhub/README.md)** | 1 个 |
 
