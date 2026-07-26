@@ -9,7 +9,7 @@
 | 📁 **[General_Config/666OS](./General_Config/666OS/README.md)** | 2 个 | [点击浏览详细列表](./General_Config/666OS/README.md) |
 | 📁 **[General_Config/AIsouler](./General_Config/AIsouler/README.md)** | 2 个 | [点击浏览详细列表](./General_Config/AIsouler/README.md) |
 | 📁 **[General_Config/Accademia](./General_Config/Accademia/README.md)** | 9 个 | [点击浏览详细列表](./General_Config/Accademia/README.md) |
-| 📁 **[General_Config/Aethersailor](./General_Config/Aethersailor/README.md)** | 2 个 | [点击浏览详细列表](./General_Config/Aethersailor/README.md) |
+| 📁 **[General_Config/Aethersailor](./General_Config/Aethersailor/README.md)** | 12 个 | [点击浏览详细列表](./General_Config/Aethersailor/README.md) |
 | 📁 **[General_Config/Ayanami0-configs](./General_Config/Ayanami0-configs/README.md)** | 1 个 | [点击浏览详细列表](./General_Config/Ayanami0-configs/README.md) |
 | 📁 **[General_Config/ClashConnectRules](./General_Config/ClashConnectRules/README.md)** | 1 个 | [点击浏览详细列表](./General_Config/ClashConnectRules/README.md) |
 | 📁 **[General_Config/Giveupmoon](./General_Config/Giveupmoon/README.md)** | 2 个 | [点击浏览详细列表](./General_Config/Giveupmoon/README.md) |
