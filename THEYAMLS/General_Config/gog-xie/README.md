@@ -19,7 +19,7 @@
 ## 📄 配置详情
 
 #### 📝 GeoAIOPro.yaml
-- **路径**: `GeoAIOPro.yaml` | **大小**: 37.4 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIOPro.yaml)
+- **路径**: `GeoAIOPro.yaml` | **大小**: 37.4 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIOPro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (93个)</summary>
@@ -50,7 +50,7 @@
 </details>
 
 #### 📝 RuleLitePro.yaml
-- **路径**: `RuleLitePro.yaml` | **大小**: 32.5 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLitePro.yaml)
+- **路径**: `RuleLitePro.yaml` | **大小**: 32.5 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLitePro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (63个)</summary>
@@ -81,7 +81,7 @@
 </details>
 
 #### 📝 RuleLite.yaml
-- **路径**: `RuleLite.yaml` | **大小**: 27.2 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLite.yaml)
+- **路径**: `RuleLite.yaml` | **大小**: 27.2 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleLite.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (39个)</summary>
@@ -112,7 +112,7 @@
 </details>
 
 #### 📝 GeoAIO.yaml
-- **路径**: `GeoAIO.yaml` | **大小**: 32.3 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIO.yaml)
+- **路径**: `GeoAIO.yaml` | **大小**: 32.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
@@ -143,7 +143,7 @@
 </details>
 
 #### 📝 GeoLite.yaml
-- **路径**: `GeoLite.yaml` | **大小**: 23.1 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoLite.yaml)
+- **路径**: `GeoLite.yaml` | **大小**: 23.1 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoLite.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (39个)</summary>
@@ -174,7 +174,7 @@
 </details>
 
 #### 📝 RuleAIO.yaml
-- **路径**: `RuleAIO.yaml` | **大小**: 40.6 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIO.yaml)
+- **路径**: `RuleAIO.yaml` | **大小**: 40.6 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
@@ -205,7 +205,7 @@
 </details>
 
 #### 📝 GeoLitePro.yaml
-- **路径**: `GeoLitePro.yaml` | **大小**: 28.7 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoLitePro.yaml)
+- **路径**: `GeoLitePro.yaml` | **大小**: 28.7 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/GeoLitePro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (63个)</summary>
@@ -236,7 +236,7 @@
 </details>
 
 #### 📝 RuleAIOPlus.yaml
-- **路径**: `RuleAIOPlus.yaml` | **大小**: 50.7 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIOPlus.yaml)
+- **路径**: `RuleAIOPlus.yaml` | **大小**: 50.7 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIOPlus.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (122个)</summary>
@@ -267,7 +267,7 @@
 </details>
 
 #### 📝 RuleAIOPro.yaml
-- **路径**: `RuleAIOPro.yaml` | **大小**: 45.9 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIOPro.yaml)
+- **路径**: `RuleAIOPro.yaml` | **大小**: 45.9 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/gog-xie/RuleAIOPro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (93个)</summary>

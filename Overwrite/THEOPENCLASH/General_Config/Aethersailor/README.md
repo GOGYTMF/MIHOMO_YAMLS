@@ -4,18 +4,18 @@
 
 | 配置文件 (.conf) | 需要填写的订阅源 (Provider) | 操作 |
 | :--- | :--- | :--- |
-| **Complete_YAML_Configuration_Template.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Complete_YAML_Configuration_Template.conf) |
-| **Custom_Clash.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash.conf) |
-| **Custom_Clash_DIY&Airport.conf** | `$EN_KEY1`: Airport<br>`$EN_KEY2`: Private | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_DIY%26Airport.conf) |
-| **Custom_Clash_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Fallback.conf) |
-| **Custom_Clash_Full.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Full.conf) |
-| **Custom_Clash_Full_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Full_Fallback.conf) |
-| **Custom_Clash_GFW.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_GFW.conf) |
-| **Custom_Clash_GFW_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_GFW_Fallback.conf) |
-| **Custom_Clash_Lite.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Lite.conf) |
-| **Custom_Clash_Lite_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Lite_Fallback.conf) |
-| **Custom_Clash_Selfhosted_Manual_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Selfhosted_Manual_Fallback.conf) |
-| **Custom_Clash_Selfhosted_Provider_Fallback.conf** | `$EN_KEY1`: provider1<br>`$EN_KEY2`: selfhost | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Selfhosted_Provider_Fallback.conf) |
+| **Complete_YAML_Configuration_Template.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Complete_YAML_Configuration_Template.conf) |
+| **Custom_Clash.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash.conf) |
+| **Custom_Clash_DIY&Airport.conf** | `$EN_KEY1`: Airport<br>`$EN_KEY2`: Private | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_DIY%26Airport.conf) |
+| **Custom_Clash_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Fallback.conf) |
+| **Custom_Clash_Full.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Full.conf) |
+| **Custom_Clash_Full_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Full_Fallback.conf) |
+| **Custom_Clash_GFW.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_GFW.conf) |
+| **Custom_Clash_GFW_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_GFW_Fallback.conf) |
+| **Custom_Clash_Lite.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Lite.conf) |
+| **Custom_Clash_Lite_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Lite_Fallback.conf) |
+| **Custom_Clash_Selfhosted_Manual_Fallback.conf** | `$EN_KEY1`: provider1 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Selfhosted_Manual_Fallback.conf) |
+| **Custom_Clash_Selfhosted_Provider_Fallback.conf** | `$EN_KEY1`: provider1<br>`$EN_KEY2`: selfhost | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/Aethersailor/Custom_Clash_Selfhosted_Provider_Fallback.conf) |
 
 ---
 [🔙 返回总览](../README.md)

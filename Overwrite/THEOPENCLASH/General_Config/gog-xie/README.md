@@ -4,15 +4,15 @@
 
 | 配置文件 (.conf) | 需要填写的订阅源 (Provider) | 操作 |
 | :--- | :--- | :--- |
-| **GeoAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoAIO.conf) |
-| **GeoAIOPro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoAIOPro.conf) |
-| **GeoLite.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoLite.conf) |
-| **GeoLitePro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoLitePro.conf) |
-| **RuleAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleAIO.conf) |
-| **RuleAIOPlus.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleAIOPlus.conf) |
-| **RuleAIOPro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleAIOPro.conf) |
-| **RuleLite.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleLite.conf) |
-| **RuleLitePro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleLitePro.conf) |
+| **GeoAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoAIO.conf) |
+| **GeoAIOPro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoAIOPro.conf) |
+| **GeoLite.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoLite.conf) |
+| **GeoLitePro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/GeoLitePro.conf) |
+| **RuleAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleAIO.conf) |
+| **RuleAIOPlus.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleAIOPlus.conf) |
+| **RuleAIOPro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleAIOPro.conf) |
+| **RuleLite.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleLite.conf) |
+| **RuleLitePro.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/General_Config/gog-xie/RuleLitePro.conf) |
 
 ---
 [🔙 返回总览](../README.md)

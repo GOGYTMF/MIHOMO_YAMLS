@@ -4,8 +4,8 @@
 
 | 配置文件 (.conf) | 需要填写的订阅源 (Provider) | 操作 |
 | :--- | :--- | :--- |
-| **GeoSmartAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/Smart_Mode/gog-xie/GeoSmartAIO.conf) |
-| **RuleSmartAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gog-xie/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/Smart_Mode/gog-xie/RuleSmartAIO.conf) |
+| **GeoSmartAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/Smart_Mode/gog-xie/GeoSmartAIO.conf) |
+| **RuleSmartAIO.conf** | `$EN_KEY1`: Airport1<br>`$EN_KEY2`: Airport2 | [查看源码](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THEOPENCLASH/Smart_Mode/gog-xie/RuleSmartAIO.conf) |
 
 ---
 [🔙 返回总览](../README.md)

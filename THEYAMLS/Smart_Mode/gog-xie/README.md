@@ -19,7 +19,7 @@
 ## 📄 配置详情
 
 #### 📝 RuleSmartAIO.yaml
-- **路径**: `RuleSmartAIO.yaml` | **大小**: 39.9 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/RuleSmartAIO.yaml)
+- **路径**: `RuleSmartAIO.yaml` | **大小**: 39.9 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/RuleSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>
@@ -50,7 +50,7 @@
 </details>
 
 #### 📝 GeoSmartAIO.yaml
-- **路径**: `GeoSmartAIO.yaml` | **大小**: 31.3 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml)
+- **路径**: `GeoSmartAIO.yaml` | **大小**: 31.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (69个)</summary>

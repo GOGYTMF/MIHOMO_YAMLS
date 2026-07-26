@@ -19,7 +19,7 @@
 ## 📄 配置详情
 
 #### 📝 Overwrite-Clash.yaml
-- **路径**: `Overwrite-Clash.yaml` | **大小**: 17.1 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash.yaml)
+- **路径**: `Overwrite-Clash.yaml` | **大小**: 17.1 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (33个)</summary>
@@ -50,7 +50,7 @@
 </details>
 
 #### 📝 Overwrite-Clash-Bypass.yaml
-- **路径**: `Overwrite-Clash-Bypass.yaml` | **大小**: 17.3 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash-Bypass.yaml)
+- **路径**: `Overwrite-Clash-Bypass.yaml` | **大小**: 17.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Giveupmoon/Overwrite-Clash-Bypass.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (33个)</summary>

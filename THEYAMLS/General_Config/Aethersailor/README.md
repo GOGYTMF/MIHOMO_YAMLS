@@ -19,7 +19,7 @@
 ## 📄 配置详情
 
 #### 📝 Custom_Clash_Lite.yaml
-- **路径**: `Custom_Clash_Lite.yaml` | **大小**: 20.7 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Lite.yaml)
+- **路径**: `Custom_Clash_Lite.yaml` | **大小**: 20.7 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Lite.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (19个)</summary>
@@ -48,7 +48,7 @@
 </details>
 
 #### 📝 Custom_Clash.yaml
-- **路径**: `Custom_Clash.yaml` | **大小**: 40.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash.yaml)
+- **路径**: `Custom_Clash.yaml` | **大小**: 40.0 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (35个)</summary>
@@ -79,7 +79,7 @@
 </details>
 
 #### 📝 Custom_Clash_Lite_Fallback.yaml
-- **路径**: `Custom_Clash_Lite_Fallback.yaml` | **大小**: 20.6 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Lite_Fallback.yaml)
+- **路径**: `Custom_Clash_Lite_Fallback.yaml` | **大小**: 20.6 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Lite_Fallback.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (19个)</summary>
@@ -108,7 +108,7 @@
 </details>
 
 #### 📝 Custom_Clash_DIY&Airport.yaml
-- **路径**: `Custom_Clash_DIY&Airport.yaml` | **大小**: 17.9 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_DIY%26Airport.yaml)
+- **路径**: `Custom_Clash_DIY&Airport.yaml` | **大小**: 17.9 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_DIY%26Airport.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (33个)</summary>
@@ -139,7 +139,7 @@
 </details>
 
 #### 📝 Custom_Clash_Selfhosted_Provider_Fallback.yaml
-- **路径**: `Custom_Clash_Selfhosted_Provider_Fallback.yaml` | **大小**: 45.5 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Provider_Fallback.yaml)
+- **路径**: `Custom_Clash_Selfhosted_Provider_Fallback.yaml` | **大小**: 45.5 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Provider_Fallback.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (36个)</summary>
@@ -170,7 +170,7 @@
 </details>
 
 #### 📝 Custom_Clash_Fallback.yaml
-- **路径**: `Custom_Clash_Fallback.yaml` | **大小**: 43.3 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Fallback.yaml)
+- **路径**: `Custom_Clash_Fallback.yaml` | **大小**: 43.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Fallback.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (35个)</summary>
@@ -201,7 +201,7 @@
 </details>
 
 #### 📝 Custom_Clash_Full.yaml
-- **路径**: `Custom_Clash_Full.yaml` | **大小**: 34.1 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full.yaml)
+- **路径**: `Custom_Clash_Full.yaml` | **大小**: 34.1 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (51个)</summary>
@@ -232,7 +232,7 @@
 </details>
 
 #### 📝 Complete_YAML_Configuration_Template.yaml
-- **路径**: `Complete_YAML_Configuration_Template.yaml` | **大小**: 44.0 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Complete_YAML_Configuration_Template.yaml)
+- **路径**: `Complete_YAML_Configuration_Template.yaml` | **大小**: 44.0 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Complete_YAML_Configuration_Template.yaml)
 - **模式**: rule | **TUN**: ✅ | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (35个)</summary>
@@ -263,7 +263,7 @@
 </details>
 
 #### 📝 Custom_Clash_Full_Fallback.yaml
-- **路径**: `Custom_Clash_Full_Fallback.yaml` | **大小**: 34.8 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full_Fallback.yaml)
+- **路径**: `Custom_Clash_Full_Fallback.yaml` | **大小**: 34.8 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full_Fallback.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (50个)</summary>
@@ -294,7 +294,7 @@
 </details>
 
 #### 📝 Custom_Clash_GFW.yaml
-- **路径**: `Custom_Clash_GFW.yaml` | **大小**: 3.2 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_GFW.yaml)
+- **路径**: `Custom_Clash_GFW.yaml` | **大小**: 3.2 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_GFW.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (3个)</summary>
@@ -307,7 +307,7 @@
 </details>
 
 #### 📝 Custom_Clash_Selfhosted_Manual_Fallback.yaml
-- **路径**: `Custom_Clash_Selfhosted_Manual_Fallback.yaml` | **大小**: 45.9 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Manual_Fallback.yaml)
+- **路径**: `Custom_Clash_Selfhosted_Manual_Fallback.yaml` | **大小**: 45.9 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Selfhosted_Manual_Fallback.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (36个)</summary>
@@ -338,7 +338,7 @@
 </details>
 
 #### 📝 Custom_Clash_GFW_Fallback.yaml
-- **路径**: `Custom_Clash_GFW_Fallback.yaml` | **大小**: 3.2 KB | [查看源码](https://github.com/gog-xie/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_GFW_Fallback.yaml)
+- **路径**: `Custom_Clash_GFW_Fallback.yaml` | **大小**: 3.2 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_GFW_Fallback.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (2个)</summary>
