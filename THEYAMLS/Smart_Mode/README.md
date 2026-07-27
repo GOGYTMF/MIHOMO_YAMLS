@@ -2,19 +2,19 @@
 
 [🔙 返回主页](../../README.md)
 
-> 🤖 自动技术分析 | 16 个配置文件
+> 🤖 自动技术分析 | 14 个配置文件
 
 ## ⚔️ 配置横向对比
 
-| 特性 | `MihomoSmartProMax.yaml` | `MihomoSmartAIO.yaml` | `MihomoSmartProPlus.yaml` | `THESmart.yaml` | `OneSmartProMCX.yaml` | `smart.yaml` | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` | `mihomo_smart.yaml` | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` | `OneSmart_Lite_Config.yaml` | `OneSmart_Config.yaml` | `clash-all-smart.yaml` | `clash-fallback-smart-std.yaml` | `clash-all-fallback-smart.yaml` |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 23.6 KB | 30.2 KB | 24.1 KB | 37.3 KB | 38.2 KB | 12.1 KB | 39.9 KB | 31.3 KB | 15.1 KB | 39.8 KB | 31.3 KB | 12.4 KB | 20.1 KB | 15.1 KB | 17.7 KB | 18.2 KB |
-| **混合端口** | 7893 | 7893 | 7893 | 7893 | 7893 | 7890 | 7893 | 7893 | 0 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 |
-| **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | - | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 |
-| **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule |
-| **TUN** | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | 🚫 | 🚫 | ✅ | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ |
-| **策略组** | **41** | **69** | **41** | **66** | **39** | **28** | **69** | **69** | **35** | **69** | **69** | **16** | **31** | **38** | **36** | **57** |
-| **规则数** | **45** | **52** | **44** | **49** | **90** | **22** | **70** | **70** | **17** | **70** | **70** | **20** | **35** | **43** | **42** | **48** |
+| 特性 | `MihomoSmartProMax.yaml` | `MihomoSmartAIO.yaml` | `MihomoSmartProPlus.yaml` | `THESmart.yaml` | `OneSmartProMCX.yaml` | `smart.yaml` | `mihomo_smart.yaml` | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` | `OneSmart_Lite_Config.yaml` | `OneSmart_Config.yaml` | `clash-all-smart.yaml` | `clash-fallback-smart-std.yaml` | `clash-all-fallback-smart.yaml` |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **大小** | 23.6 KB | 30.2 KB | 24.1 KB | 37.3 KB | 38.2 KB | 12.1 KB | 15.1 KB | 39.8 KB | 31.3 KB | 12.4 KB | 20.1 KB | 15.1 KB | 17.7 KB | 18.2 KB |
+| **混合端口** | 7893 | 7893 | 7893 | 7893 | 7893 | 7890 | 0 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 |
+| **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | - | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 |
+| **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule |
+| **TUN** | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ |
+| **策略组** | **41** | **69** | **41** | **66** | **39** | **28** | **35** | **69** | **69** | **16** | **31** | **38** | **36** | **57** |
+| **规则数** | **45** | **52** | **44** | **49** | **90** | **22** | **17** | **70** | **70** | **20** | **35** | **43** | **42** | **48** |
 
 ## 📄 配置详情
 
@@ -270,71 +270,6 @@
 | 🔧 台湾-故转 | `fallback` |
 | 🔧 日本-故转 | `fallback` |
 | ... | 还有 19 个 |
-</details>
-
----
-### 👤 gog-xie
-
-#### 📝 RuleSmartAIO.yaml
-- **路径**: `gog-xie/RuleSmartAIO.yaml` | **大小**: 39.9 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/RuleSmartAIO.yaml)
-- **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
-<details>
-<summary>🔍 策略组 (69个)</summary>
-
-| 名称 | 类型 |
-| :--- | :--- |
-| 🔧 故障转移 | `fallback` |
-| 👆 默认代理 | `select` |
-| 👆 默认直连 | `select` |
-| 👆 Github | `select` |
-| 👆 油管视频 | `select` |
-| 👆 国外娱乐 | `select` |
-| 👆 谷歌FCM | `select` |
-| 👆 谷歌服务 | `select` |
-| 👆 Gemini | `select` |
-| 👆 Claude | `select` |
-| 👆 ChatGPT | `select` |
-| 👆 Grok | `select` |
-| 👆 AI服务 | `select` |
-| 👆 国外电商 | `select` |
-| 👆 即时通讯 | `select` |
-| 👆 社交媒体 | `select` |
-| 👆 TikTok | `select` |
-| 👆 奈飞视频 | `select` |
-| 👆 迪士尼+ | `select` |
-| 👆 HBO | `select` |
-| ... | 还有 49 个 |
-</details>
-
-#### 📝 GeoSmartAIO.yaml
-- **路径**: `gog-xie/GeoSmartAIO.yaml` | **大小**: 31.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gog-xie/GeoSmartAIO.yaml)
-- **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
-<details>
-<summary>🔍 策略组 (69个)</summary>
-
-| 名称 | 类型 |
-| :--- | :--- |
-| 🔧 故障转移 | `fallback` |
-| 👆 默认代理 | `select` |
-| 👆 默认直连 | `select` |
-| 👆 Github | `select` |
-| 👆 油管视频 | `select` |
-| 👆 国外娱乐 | `select` |
-| 👆 谷歌FCM | `select` |
-| 👆 谷歌服务 | `select` |
-| 👆 Gemini | `select` |
-| 👆 Claude | `select` |
-| 👆 ChatGPT | `select` |
-| 👆 Grok | `select` |
-| 👆 AI服务 | `select` |
-| 👆 国外电商 | `select` |
-| 👆 即时通讯 | `select` |
-| 👆 社交媒体 | `select` |
-| 👆 TikTok | `select` |
-| 👆 奈飞视频 | `select` |
-| 👆 迪士尼+ | `select` |
-| 👆 HBO | `select` |
-| ... | 还有 49 个 |
 </details>
 
 ---
