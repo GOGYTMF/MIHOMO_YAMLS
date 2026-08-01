@@ -4,6 +4,11 @@ source "$(dirname "$0")/lib_fetch.sh"
 echo "📦 Processing General Configs..."
 
 TASKS=$(cat <<'EOF'
+https://github.com/sev7enshare/Clash-Config/raw/main/Clash-Fallback.yaml|THEYAMLS/General_Config/sev7enshare/Clash-Fallback.yaml
+https://github.com/sev7enshare/Clash-Config/raw/main/clash-advanced.yaml|THEYAMLS/General_Config/sev7enshare/clash-advanced.yaml
+https://github.com/sev7enshare/Clash-Config/raw/main/clash-lite.yaml|THEYAMLS/General_Config/sev7enshare/clash-lite.yaml
+https://github.com/sev7enshare/Clash-Config/raw/main/clash-standard-noicon.yaml|THEYAMLS/General_Config/sev7enshare/clash-standard-noicon.yaml
+
 https://github.com/huohuczq/MihomoYaml/raw/main/Geo.yaml|THEYAMLS/General_Config/huohuczq/Geo.yaml
 https://github.com/huohuczq/MihomoYaml/raw/main/Geo_Clashmi_Overwrite.yaml|THEYAMLS/General_Config/huohuczq/Geo_Clashmi_Overwrite.yaml
 https://github.com/huohuczq/MihomoYaml/raw/main/Rule-Set _Clashmi_Overwrite.yaml|THEYAMLS/General_Config/huohuczq/Rule-Set _Clashmi_Overwrite.yaml
