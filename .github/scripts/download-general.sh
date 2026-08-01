@@ -4,6 +4,11 @@ source "$(dirname "$0")/lib_fetch.sh"
 echo "📦 Processing General Configs..."
 
 TASKS=$(cat <<'EOF'
+https://github.com/huohuczq/MihomoYaml/raw/main/Geo.yaml|THEYAMLS/General_Config/huohuczq/Geo.yaml
+https://github.com/huohuczq/MihomoYaml/raw/main/Geo_Clashmi_Overwrite.yaml|THEYAMLS/General_Config/huohuczq/Geo_Clashmi_Overwrite.yaml
+https://github.com/huohuczq/MihomoYaml/raw/main/Rule-Set _Clashmi_Overwrite.yaml|THEYAMLS/General_Config/huohuczq/Rule-Set _Clashmi_Overwrite.yaml
+https://github.com/huohuczq/MihomoYaml/raw/main/Rule-Set.yaml|THEYAMLS/General_Config/huohuczq/Rule-Set.yaml
+
 https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Complete_YAML_Configuration_Template.yaml|THEYAMLS/General_Config/Aethersailor/Complete_YAML_Configuration_Template.yaml
 https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash.yaml
 https://github.com/Aethersailor/Custom_OpenClash_Rules/raw/main/cfg/yaml/Custom_Clash_Fallback.yaml|THEYAMLS/General_Config/Aethersailor/Custom_Clash_Fallback.yaml
