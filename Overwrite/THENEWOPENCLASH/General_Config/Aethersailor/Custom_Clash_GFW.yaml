@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - Custom_Clash_GFW.yaml
-# 生成日期：2026-07-26
+# 生成日期：2026-08-02
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_GFW.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -123,14 +123,9 @@
 #   url: https://cp.cloudflare.com/generate_204
 #   use:
 #   - provider1
-# - expected-status: 204
-#   interval: 300
-#   lazy: false
-#   name: 🎯 全球直连
+# - name: 🎯 全球直连
 #   proxies:
 #   - DIRECT
-#   timeout: 5000
-#   tolerance: 50
 #   type: url-test
 #   url: http://wifi.vivo.com.cn/generate_204
 

@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - GeoSmartAIO.yaml
-# 生成日期：2026-07-26
+# 生成日期：2026-08-02
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/Smart_Mode/gogyt/GeoSmartAIO.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -793,7 +793,6 @@
 # - GEOSITE,onedrive,OneDrive
 # - GEOSITE,bing,Bing
 # - GEOSITE,github,Github
-# - GEOSITE,microsoft,微软服务
 # - GEOSITE,apple-cn,直接连接
 # - GEOSITE,apple-tvplus,Apple TV+
 # - GEOSITE,apple,苹果服务
@@ -828,6 +827,7 @@
 # - GEOSITE,category-ecommerce,国外电商
 # - GEOSITE,category-cryptocurrency,加密货币
 # - GEOSITE,gfw,默认代理
+# - GEOSITE,microsoft,微软服务
 # - GEOIP,telegram,即时通讯,no-resolve
 # - GEOIP,twitter,社交媒体,no-resolve
 # - GEOIP,facebook,社交媒体,no-resolve

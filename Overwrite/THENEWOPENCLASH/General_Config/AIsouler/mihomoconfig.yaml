@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - mihomoconfig.yaml
-# 生成日期：2026-07-26
+# 生成日期：2026-08-02
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/AIsouler/mihomoconfig.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -85,7 +85,7 @@
 # proxy-providers:
 #   provider1:
 #     age-secret-key: ''
-#     exclude-filter: (?i)(群|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|剩余|公益|发布|DIZTNA|通路|登录|禁止|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|重置|以下|⚠️|@|expire|http|com|traffic)
+#     exclude-filter: (?i)(群|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|提示|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|失联|选择|剩余|公益|发布|DIZTNA|通路|登录|定时|渠道|牢记|永久|余额|阁下|本站|刷新|导航|建议|重置|以下|⚠️|@|expire|http|com|traffic)
 #     health-check:
 #       enable: true
 #       interval: 600
@@ -322,6 +322,17 @@
 #   max-failed-times: 3
 #   name: Spotify
 #   proxies: *id002
+#   timeout: 3000
+#   type: select
+#   url: https://g.cn/generate_204
+# - default-selected: 日本
+#   empty-fallback: REJECT
+#   icon: https://fastly.jsdelivr.net/gh/lige47/QuanX-icon-rule@main/icon/04ProxySoft/Bitcoin.png
+#   interval: 600
+#   lazy: true
+#   max-failed-times: 3
+#   name: Crypto
+#   proxies: *id001
 #   timeout: 3000
 #   type: select
 #   url: https://g.cn/generate_204
@@ -664,6 +675,14 @@
 #     path-in-bundle: geo/geoip/cn.mrs
 #     type: http
 #     url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs
+#   cryptocurrency:
+#     behavior: domain
+#     format: mrs
+#     interval: 86400
+#     path: ./ruleset/cryptocurrency.mrs
+#     path-in-bundle: geo/geosite/category-cryptocurrency.mrs
+#     type: http
+#     url: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-cryptocurrency.mrs
 #   disney:
 #     behavior: domain
 #     format: mrs
@@ -941,7 +960,6 @@
 # ==========================================================
 #
 # rules:
-# - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn_additional),(RULE-SET,cn_ip,no-resolve)))))),REJECT
 # - RULE-SET,private,直连
 # - RULE-SET,private_ip,直连,no-resolve
 # - RULE-SET,games_cn,直连
@@ -952,6 +970,7 @@
 # - DOMAIN,fsend.cn,直连
 # - DOMAIN,international-gfe.download.nvidia.com,直连
 # - DOMAIN-SUFFIX,hdslb.com,直连
+# - AND,((NETWORK,UDP),(DST-PORT,443),(NOT,((OR,((RULE-SET,cn_additional),(RULE-SET,cn_ip,no-resolve)))))),REJECT
 # - RULE-SET,adblockmihomolite,AdBlock
 # - RULE-SET,ai,AI
 # - RULE-SET,youtube,Media
@@ -974,9 +993,16 @@
 # - RULE-SET,twitter,Twitter
 # - RULE-SET,emby,Emby
 # - DOMAIN-SUFFIX,mb3admin.com,Emby
+# - DOMAIN-SUFFIX,nubebelle.com,Emby
 # - DOMAIN-KEYWORD,emby,Emby
+# - PROCESS-NAME,com.mb.android,Emby
+# - PROCESS-NAME,tv.emby.embyatv,Emby
+# - PROCESS-NAME,com.hush.yamby,Emby
+# - PROCESS-NAME,com.jellycine.app,Emby
+# - PROCESS-NAME,com.mountains.hills,Emby
 # - RULE-SET,pikpak,PikPak
 # - RULE-SET,spotify,Spotify
+# - RULE-SET,cryptocurrency,Crypto
 # - RULE-SET,ehentai,EHentai
 # - RULE-SET,google_ip,Google,no-resolve
 # - RULE-SET,telegram_ip,Telegram,no-resolve

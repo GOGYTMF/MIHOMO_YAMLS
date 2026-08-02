@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - Custom_Clash_Full_Fallback.yaml
-# 生成日期：2026-07-26
+# 生成日期：2026-08-02
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full_Fallback.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -827,6 +827,28 @@
 #   - 🐢 低倍率节点
 #   - ♻️ 自动选择
 #   type: select
+# - name: 🌍 国外域名
+#   proxies:
+#   - 🎯 全球直连
+#   - 🚀 故障转移
+#   - ♻️ 自动选择
+#   - 🇭🇰 香港节点
+#   - 🇺🇸 美国节点
+#   - 🇯🇵 日本节点
+#   - 🇸🇬 新加坡节点
+#   - 🇼🇸 台湾节点
+#   - 🇰🇷 韩国节点
+#   - 🇨🇦 加拿大节点
+#   - 🇬🇧 英国节点
+#   - 🇫🇷 法国节点
+#   - 🇩🇪 德国节点
+#   - 🇳🇱 荷兰节点
+#   - 🇹🇷 土耳其节点
+#   - 🇷🇺 俄罗斯节点
+#   - 🌐 其他地区
+#   - 🏠 家宽节点
+#   - 🐢 低倍率节点
+#   type: select
 # - expected-status: 204
 #   interval: 300
 #   lazy: false
@@ -1003,14 +1025,9 @@
 #   url: https://cp.cloudflare.com/generate_204
 #   use:
 #   - provider1
-# - expected-status: 204
-#   interval: 300
-#   lazy: false
-#   name: 🎯 全球直连
+# - name: 🎯 全球直连
 #   proxies:
 #   - DIRECT
-#   timeout: 5000
-#   tolerance: 50
 #   type: url-test
 #   url: http://wifi.vivo.com.cn/generate_204
 
@@ -1131,6 +1148,7 @@
 # - GEOIP,facebook,🌐 社交媒体,no-resolve
 # - GEOIP,google,🇬 谷歌服务,no-resolve
 # - GEOIP,netflix,🎥 Netflix,no-resolve
+# - GEOSITE,geolocation-!cn,🌍 国外域名
 # - GEOSITE,cn,🎯 全球直连
 # - GEOIP,cn,🎯 全球直连,no-resolve
 # - RULE-SET,Nonstandard_Port_Direct,🔀 非标端口

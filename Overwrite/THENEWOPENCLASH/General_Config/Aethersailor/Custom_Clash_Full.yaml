@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - Custom_Clash_Full.yaml
-# 生成日期：2026-07-26
+# 生成日期：2026-08-02
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -160,6 +160,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🌐 社交媒体
 #   proxies:
 #   - 🚀 手动选择
@@ -181,6 +183,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 📞 Talkatone
 #   proxies:
 #   - 🚀 手动选择
@@ -202,6 +206,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🚀 GitHub
 #   proxies:
 #   - 🚀 手动选择
@@ -224,6 +230,8 @@
 #   - 🐢 低倍率节点
 #   - 🎯 全球直连
 #   type: select
+#   use:
+#   - provider1
 # - name: 🤖 ChatGPT
 #   proxies:
 #   - 🚀 手动选择
@@ -245,6 +253,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🤖 Copilot
 #   proxies:
 #   - 🚀 手动选择
@@ -266,6 +276,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🤖 AI服务
 #   proxies:
 #   - 🚀 手动选择
@@ -287,6 +299,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎶 TikTok
 #   proxies:
 #   - 🚀 手动选择
@@ -308,6 +322,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 📹 YouTube
 #   proxies:
 #   - 🚀 手动选择
@@ -329,6 +345,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎥 Netflix
 #   proxies:
 #   - 🚀 手动选择
@@ -350,6 +368,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎥 DisneyPlus
 #   proxies:
 #   - 🚀 手动选择
@@ -371,6 +391,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎥 HBO
 #   proxies:
 #   - 🚀 手动选择
@@ -392,6 +414,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎥 PrimeVideo
 #   proxies:
 #   - 🚀 手动选择
@@ -413,6 +437,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎥 AppleTV+
 #   proxies:
 #   - 🚀 手动选择
@@ -435,6 +461,8 @@
 #   - 🐢 低倍率节点
 #   - 🎯 全球直连
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎥 Emby
 #   proxies:
 #   - 🚀 手动选择
@@ -457,6 +485,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎻 Spotify
 #   proxies:
 #   - 🚀 手动选择
@@ -479,12 +509,16 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 📺 Bahamut
 #   proxies:
 #   - 🇼🇸 台湾节点
 #   - 🚀 手动选择
 #   - 🎯 全球直连
 #   type: select
+#   use:
+#   - provider1
 # - name: 🌎 国外媒体
 #   proxies:
 #   - 🚀 手动选择
@@ -506,6 +540,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🛒 国外电商
 #   proxies:
 #   - 🚀 手动选择
@@ -527,6 +563,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🪙 加密货币
 #   proxies:
 #   - 🚀 手动选择
@@ -548,6 +586,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 📢 谷歌FCM
 #   proxies:
 #   - 🚀 手动选择
@@ -569,6 +609,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🇬 谷歌服务
 #   proxies:
 #   - 🚀 手动选择
@@ -590,6 +632,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🍎 苹果服务
 #   proxies:
 #   - 🎯 全球直连
@@ -612,6 +656,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: Ⓜ️ 微软服务
 #   proxies:
 #   - 🎯 全球直连
@@ -634,6 +680,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 💾 OneDrive
 #   proxies:
 #   - 🎯 全球直连
@@ -656,6 +704,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 💳 PayPal
 #   proxies:
 #   - 🎯 全球直连
@@ -678,6 +728,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎮 游戏平台
 #   proxies:
 #   - 🎯 全球直连
@@ -700,6 +752,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🎮 Steam
 #   proxies:
 #   - 🎯 全球直连
@@ -722,6 +776,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: ⏬ PT站点
 #   proxies:
 #   - 🇭🇰 香港节点
@@ -744,6 +800,8 @@
 #   - ♻️ 自动选择
 #   - 🎯 全球直连
 #   type: select
+#   use:
+#   - provider1
 # - name: 🚀 测速工具
 #   proxies:
 #   - 🎯 全球直连
@@ -766,6 +824,32 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
+# - name: 🌍 国外域名
+#   proxies:
+#   - 🎯 全球直连
+#   - 🚀 手动选择
+#   - ♻️ 自动选择
+#   - 🇭🇰 香港节点
+#   - 🇺🇸 美国节点
+#   - 🇯🇵 日本节点
+#   - 🇸🇬 新加坡节点
+#   - 🇼🇸 台湾节点
+#   - 🇰🇷 韩国节点
+#   - 🇨🇦 加拿大节点
+#   - 🇬🇧 英国节点
+#   - 🇫🇷 法国节点
+#   - 🇩🇪 德国节点
+#   - 🇳🇱 荷兰节点
+#   - 🇹🇷 土耳其节点
+#   - 🇷🇺 俄罗斯节点
+#   - 🌐 其他地区
+#   - 🏠 家宽节点
+#   - 🐢 低倍率节点
+#   type: select
+#   use:
+#   - provider1
 # - name: 🐟 漏网之鱼
 #   proxies:
 #   - 🎯 全球直连
@@ -788,6 +872,8 @@
 #   - 🏠 家宽节点
 #   - 🐢 低倍率节点
 #   type: select
+#   use:
+#   - provider1
 # - name: 🔀 非标端口
 #   proxies:
 #   - 🐟 漏网之鱼
@@ -939,14 +1025,9 @@
 #   url: https://cp.cloudflare.com/generate_204
 #   use:
 #   - provider1
-# - expected-status: 204
-#   interval: 300
-#   lazy: false
-#   name: 🎯 全球直连
+# - name: 🎯 全球直连
 #   proxies:
 #   - DIRECT
-#   timeout: 5000
-#   tolerance: 50
 #   type: url-test
 #   url: http://wifi.vivo.com.cn/generate_204
 
@@ -1061,12 +1142,14 @@
 # - GEOSITE,category-pt,⏬ PT站点
 # - GEOSITE,paypal,💳 PayPal
 # - GEOSITE,category-ecommerce,🛒 国外电商
+# - GEOSITE,category-cryptocurrency,🪙 加密货币
 # - GEOSITE,gfw,🚀 手动选择
 # - GEOIP,telegram,💬 即时通讯,no-resolve
 # - GEOIP,twitter,🌐 社交媒体,no-resolve
 # - GEOIP,facebook,🌐 社交媒体,no-resolve
 # - GEOIP,google,🇬 谷歌服务,no-resolve
 # - GEOIP,netflix,🎥 Netflix,no-resolve
+# - GEOSITE,geolocation-!cn,🌍 国外域名
 # - GEOSITE,cn,🎯 全球直连
 # - GEOIP,cn,🎯 全球直连,no-resolve
 # - RULE-SET,Nonstandard_Port_Direct,🔀 非标端口

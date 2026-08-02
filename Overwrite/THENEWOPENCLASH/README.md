@@ -18,7 +18,6 @@
 
 | 分类 | 文件数 |
 | :--- | :--- |
-| 📁 **[General_Config/666OS](./General_Config/666OS/README.md)** | 2 个 |
 | 📁 **[General_Config/AIsouler](./General_Config/AIsouler/README.md)** | 2 个 |
 | 📁 **[General_Config/Accademia](./General_Config/Accademia/README.md)** | 9 个 |
 | 📁 **[General_Config/Aethersailor](./General_Config/Aethersailor/README.md)** | 12 个 |
@@ -41,12 +40,14 @@
 | 📁 **[General_Config/echs-top](./General_Config/echs-top/README.md)** | 1 个 |
 | 📁 **[General_Config/fufu](./General_Config/fufu/README.md)** | 1 个 |
 | 📁 **[General_Config/gogyt](./General_Config/gogyt/README.md)** | 9 个 |
+| 📁 **[General_Config/huohuczq](./General_Config/huohuczq/README.md)** | 2 个 |
 | 📁 **[General_Config/iKeLee](./General_Config/iKeLee/README.md)** | 2 个 |
 | 📁 **[General_Config/liandu2024](./General_Config/liandu2024/README.md)** | 5 个 |
 | 📁 **[General_Config/liuran001](./General_Config/liuran001/README.md)** | 1 个 |
 | 📁 **[General_Config/loneshu7](./General_Config/loneshu7/README.md)** | 1 个 |
 | 📁 **[General_Config/lvbibir](./General_Config/lvbibir/README.md)** | 1 个 |
 | 📁 **[General_Config/qichiyuhub](./General_Config/qichiyuhub/README.md)** | 1 个 |
+| 📁 **[General_Config/sev7enshare](./General_Config/sev7enshare/README.md)** | 4 个 |
 | 📁 **[General_Config/sfssup](./General_Config/sfssup/README.md)** | 1 个 |
 | 📁 **[General_Config/wanswu](./General_Config/wanswu/README.md)** | 1 个 |
 | 📁 **[General_Config/yyhhyyyyyy](./General_Config/yyhhyyyyyy/README.md)** | 2 个 |
@@ -55,7 +56,6 @@
 | 📁 **[Mobile_Modules/ClashMix](./Mobile_Modules/ClashMix/README.md)** | 1 个 |
 | 📁 **[Mobile_Modules/Surfing](./Mobile_Modules/Surfing/README.md)** | 1 个 |
 | 📁 **[Official_Examples/Metacubex](./Official_Examples/Metacubex/README.md)** | 2 个 |
-| 📁 **[Smart_Mode/666OS](./Smart_Mode/666OS/README.md)** | 2 个 |
 | 📁 **[Smart_Mode/HenryChiao](./Smart_Mode/HenryChiao/README.md)** | 4 个 |
 | 📁 **[Smart_Mode/echs-top](./Smart_Mode/echs-top/README.md)** | 1 个 |
 | 📁 **[Smart_Mode/edison](./Smart_Mode/edison/README.md)** | 1 个 |

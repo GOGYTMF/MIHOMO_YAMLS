@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - RuleSmartAIO.yaml
-# 生成日期：2026-07-26
+# 生成日期：2026-08-02
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/Smart_Mode/gogyt/RuleSmartAIO.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -1135,7 +1135,6 @@
 # - RULE-SET,onedrive,OneDrive
 # - RULE-SET,bing,Bing
 # - RULE-SET,github,Github
-# - RULE-SET,microsoft,微软服务
 # - RULE-SET,apple-cn,直接连接
 # - RULE-SET,apple-tvplus,Apple TV+
 # - RULE-SET,apple,苹果服务
@@ -1170,6 +1169,7 @@
 # - RULE-SET,category-ecommerce,国外电商
 # - RULE-SET,category-cryptocurrency,加密货币
 # - RULE-SET,gfw,默认代理
+# - RULE-SET,microsoft,微软服务
 # - RULE-SET,telegram_IP,即时通讯,no-resolve
 # - RULE-SET,twitter_IP,社交媒体,no-resolve
 # - RULE-SET,facebook_IP,社交媒体,no-resolve
