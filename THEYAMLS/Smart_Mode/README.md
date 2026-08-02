@@ -6,48 +6,22 @@
 
 ## ⚔️ 配置横向对比
 
-| 特性 | `MihomoSmartProMax.yaml` | `MihomoSmartAIO.yaml` | `MihomoSmartProPlus.yaml` | `THESmart.yaml` | `OneSmartProMCX.yaml` | `smart.yaml` | `mihomo_smart.yaml` | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` | `OneSmart_Lite_Config.yaml` | `OneSmart_Config.yaml` | `clash-all-smart.yaml` | `clash-fallback-smart-std.yaml` | `clash-all-fallback-smart.yaml` |
+| 特性 | `MihomoSmartProMax.yaml` | `MihomoSmartAIO.yaml` | `MihomoSmartProPlus.yaml` | `THESmart.yaml` | `OneSmartProMCX.yaml` | `smart.yaml` | `mihomo_smart.yaml` | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` | `OneSmartPro.yaml` | `OneSmart.yaml` | `clash-all-smart.yaml` | `clash-fallback-smart-std.yaml` | `clash-all-fallback-smart.yaml` |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 23.6 KB | 30.2 KB | 24.1 KB | 37.3 KB | 38.5 KB | 12.1 KB | 15.1 KB | 39.8 KB | 31.3 KB | 12.4 KB | 20.1 KB | 15.1 KB | 17.7 KB | 18.2 KB |
+| **大小** | 23.6 KB | 30.2 KB | 24.1 KB | 37.3 KB | 38.5 KB | 12.1 KB | 15.1 KB | 39.8 KB | 31.3 KB | 20.1 KB | 12.4 KB | 15.1 KB | 17.7 KB | 18.2 KB |
 | **混合端口** | 7893 | 7893 | 7893 | 7893 | 7893 | 7890 | 0 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 |
 | **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | - | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 |
 | **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule |
 | **TUN** | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ |
-| **策略组** | **41** | **69** | **41** | **66** | **39** | **28** | **35** | **69** | **69** | **16** | **31** | **38** | **36** | **57** |
-| **规则数** | **45** | **52** | **44** | **49** | **90** | **22** | **17** | **70** | **70** | **20** | **35** | **43** | **42** | **48** |
+| **策略组** | **41** | **69** | **41** | **66** | **39** | **28** | **35** | **69** | **69** | **31** | **16** | **38** | **36** | **57** |
+| **规则数** | **45** | **52** | **44** | **49** | **90** | **22** | **17** | **70** | **70** | **35** | **20** | **43** | **42** | **48** |
 
 ## 📄 配置详情
 
 ### 👤 666OS
 
-#### 📝 OneSmart_Lite_Config.yaml
-- **路径**: `666OS/OneSmart_Lite_Config.yaml` | **大小**: 12.4 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/666OS/OneSmart_Lite_Config.yaml)
-- **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
-<details>
-<summary>🔍 策略组 (16个)</summary>
-
-| 名称 | 类型 |
-| :--- | :--- |
-| 👆 一键智能 | `select` |
-| 👆 人工智能 | `select` |
-| 👆 社交平台 | `select` |
-| 👆 国际媒体 | `select` |
-| 👆 国外流量 | `select` |
-| 👆 国内流量 | `select` |
-| 👆 兜底流量 | `select` |
-| 👆 手动选择 | `select` |
-| 👆 直接连接 | `select` |
-| 👆 香港智能 | `smart` |
-| 👆 台湾智能 | `smart` |
-| 👆 日本智能 | `smart` |
-| 👆 狮城智能 | `smart` |
-| 👆 韩国智能 | `smart` |
-| 👆 美国智能 | `smart` |
-| 👆 欧洲智能 | `smart` |
-</details>
-
-#### 📝 OneSmart_Config.yaml
-- **路径**: `666OS/OneSmart_Config.yaml` | **大小**: 20.1 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/666OS/OneSmart_Config.yaml)
+#### 📝 OneSmartPro.yaml
+- **路径**: `666OS/OneSmartPro.yaml` | **大小**: 20.1 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/666OS/OneSmartPro.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
 <summary>🔍 策略组 (31个)</summary>
@@ -75,6 +49,32 @@
 | 👆 直接连接 | `select` |
 | 🔧 高质量线路 | `fallback` |
 | ... | 还有 11 个 |
+</details>
+
+#### 📝 OneSmart.yaml
+- **路径**: `666OS/OneSmart.yaml` | **大小**: 12.4 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/666OS/OneSmart.yaml)
+- **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
+<details>
+<summary>🔍 策略组 (16个)</summary>
+
+| 名称 | 类型 |
+| :--- | :--- |
+| 👆 一键智能 | `select` |
+| 👆 人工智能 | `select` |
+| 👆 社交平台 | `select` |
+| 👆 国际媒体 | `select` |
+| 👆 国外流量 | `select` |
+| 👆 国内流量 | `select` |
+| 👆 兜底流量 | `select` |
+| 👆 手动选择 | `select` |
+| 👆 直接连接 | `select` |
+| 👆 香港智能 | `smart` |
+| 👆 台湾智能 | `smart` |
+| 👆 日本智能 | `smart` |
+| 👆 狮城智能 | `smart` |
+| 👆 韩国智能 | `smart` |
+| 👆 美国智能 | `smart` |
+| 👆 欧洲智能 | `smart` |
 </details>
 
 ---
