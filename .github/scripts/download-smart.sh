@@ -7,8 +7,8 @@ TASKS=$(cat <<'EOF'
 https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/GeoSmartAIO.yaml|THEYAMLS/Smart_Mode/gogyt/GeoSmartAIO.yaml
 https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleSmartAIO.yaml|THEYAMLS/Smart_Mode/gogyt/RuleSmartAIO.yaml
 
-https://raw.githubusercontent.com/666OS/YYDS/refs/heads/main/mihomo/config/legacy/OneSmartPro.yaml|THEYAMLS/Smart_Mode/666OS/OneSmart_Config.yaml
-https://raw.githubusercontent.com/666OS/YYDS/main/mihomo/config/legacy/OneSmart.yaml|THEYAMLS/Smart_Mode/666OS/OneSmart_Lite_Config.yaml
+https://raw.githubusercontent.com/666OS/YYDS/refs/heads/main/mihomo/config/legacy/OneSmartPro.yaml|THEYAMLS/Smart_Mode/666OS/OneSmartPro.yaml
+https://raw.githubusercontent.com/666OS/YYDS/main/mihomo/config/legacy/OneSmart.yaml|THEYAMLS/Smart_Mode/666OS/OneSmart.yaml
 https://raw.githubusercontent.com/HenryChiao/MIHOMO_AIO/refs/heads/main/CONFIG/SMART/MihomoSmartProPlus.yaml|THEYAMLS/Smart_Mode/HenryChiao/MihomoSmartProPlus.yaml
 https://raw.githubusercontent.com/HenryChiao/MIHOMO_AIO/refs/heads/main/CONFIG/SMART/MihomoSmartAIO.yaml|THEYAMLS/Smart_Mode/HenryChiao/MihomoSmartAIO.yaml
 https://raw.githubusercontent.com/HenryChiao/MIHOMO_AIO/refs/heads/main/CONFIG/SMART/MihomoSmartProMax.yaml|THEYAMLS/Smart_Mode/HenryChiao/MihomoSmartProMax.yaml
