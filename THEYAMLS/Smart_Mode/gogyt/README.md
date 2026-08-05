@@ -8,21 +8,21 @@
 
 | 特性 | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` |
 | :--- | :--- | :--- |
-| **大小** | 39.8 KB | 31.3 KB |
+| **大小** | 38.4 KB | 29.8 KB |
 | **混合端口** | 7893 | 7893 |
 | **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 |
 | **运行模式** | rule | rule |
 | **TUN** | 🚫 | 🚫 |
-| **策略组** | **69** | **69** |
-| **规则数** | **70** | **70** |
+| **策略组** | **67** | **67** |
+| **规则数** | **62** | **62** |
 
 ## 📄 配置详情
 
 #### 📝 RuleSmartAIO.yaml
-- **路径**: `RuleSmartAIO.yaml` | **大小**: 39.8 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/RuleSmartAIO.yaml)
+- **路径**: `RuleSmartAIO.yaml` | **大小**: 38.4 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/RuleSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (69个)</summary>
+<summary>🔍 策略组 (67个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -46,14 +46,14 @@
 | 👆 奈飞视频 | `select` |
 | 👆 迪士尼+ | `select` |
 | 👆 HBO | `select` |
-| ... | 还有 49 个 |
+| ... | 还有 47 个 |
 </details>
 
 #### 📝 GeoSmartAIO.yaml
-- **路径**: `GeoSmartAIO.yaml` | **大小**: 31.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/GeoSmartAIO.yaml)
+- **路径**: `GeoSmartAIO.yaml` | **大小**: 29.8 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/GeoSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (69个)</summary>
+<summary>🔍 策略组 (67个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -77,5 +77,5 @@
 | 👆 奈飞视频 | `select` |
 | 👆 迪士尼+ | `select` |
 | 👆 HBO | `select` |
-| ... | 还有 49 个 |
+| ... | 还有 47 个 |
 </details>

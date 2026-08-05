@@ -8,13 +8,13 @@
 
 | 特性 | `MihomoSmartProMax.yaml` | `MihomoSmartAIO.yaml` | `MihomoSmartProPlus.yaml` | `THESmart.yaml` | `OneSmartProMCX.yaml` | `smart.yaml` | `mihomo_smart.yaml` | `RuleSmartAIO.yaml` | `GeoSmartAIO.yaml` | `OneSmartPro.yaml` | `OneSmart.yaml` | `clash-all-smart.yaml` | `clash-fallback-smart-std.yaml` | `clash-all-fallback-smart.yaml` |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 23.6 KB | 30.2 KB | 24.1 KB | 37.3 KB | 38.5 KB | 12.1 KB | 15.1 KB | 39.8 KB | 31.3 KB | 20.1 KB | 12.4 KB | 15.1 KB | 17.7 KB | 18.2 KB |
+| **大小** | 23.6 KB | 30.2 KB | 24.1 KB | 37.3 KB | 38.6 KB | 12.1 KB | 15.1 KB | 38.4 KB | 29.8 KB | 20.1 KB | 12.4 KB | 15.1 KB | 17.7 KB | 18.2 KB |
 | **混合端口** | 7893 | 7893 | 7893 | 7893 | 7893 | 7890 | 0 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 |
 | **面板地址** | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | - | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 |
 | **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule |
 | **TUN** | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ |
-| **策略组** | **41** | **69** | **41** | **66** | **39** | **28** | **35** | **69** | **69** | **31** | **16** | **38** | **36** | **57** |
-| **规则数** | **45** | **52** | **44** | **49** | **90** | **22** | **17** | **70** | **70** | **35** | **20** | **43** | **42** | **48** |
+| **策略组** | **41** | **69** | **41** | **66** | **39** | **28** | **35** | **67** | **67** | **31** | **16** | **38** | **36** | **57** |
+| **规则数** | **45** | **52** | **44** | **49** | **91** | **22** | **17** | **62** | **62** | **35** | **20** | **43** | **42** | **48** |
 
 ## 📄 配置详情
 
@@ -242,7 +242,7 @@
 ### 👤 edison
 
 #### 📝 OneSmartProMCX.yaml
-- **路径**: `edison/OneSmartProMCX.yaml` | **大小**: 38.5 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/edison/OneSmartProMCX.yaml)
+- **路径**: `edison/OneSmartProMCX.yaml` | **大小**: 38.6 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/edison/OneSmartProMCX.yaml)
 - **模式**: rule | **TUN**: ✅ | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (39个)</summary>
@@ -276,10 +276,10 @@
 ### 👤 gogyt
 
 #### 📝 RuleSmartAIO.yaml
-- **路径**: `gogyt/RuleSmartAIO.yaml` | **大小**: 39.8 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/RuleSmartAIO.yaml)
+- **路径**: `gogyt/RuleSmartAIO.yaml` | **大小**: 38.4 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/RuleSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (69个)</summary>
+<summary>🔍 策略组 (67个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -303,14 +303,14 @@
 | 👆 奈飞视频 | `select` |
 | 👆 迪士尼+ | `select` |
 | 👆 HBO | `select` |
-| ... | 还有 49 个 |
+| ... | 还有 47 个 |
 </details>
 
 #### 📝 GeoSmartAIO.yaml
-- **路径**: `gogyt/GeoSmartAIO.yaml` | **大小**: 31.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/GeoSmartAIO.yaml)
+- **路径**: `gogyt/GeoSmartAIO.yaml` | **大小**: 29.8 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/gogyt/GeoSmartAIO.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (69个)</summary>
+<summary>🔍 策略组 (67个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -334,7 +334,7 @@
 | 👆 奈飞视频 | `select` |
 | 👆 迪士尼+ | `select` |
 | 👆 HBO | `select` |
-| ... | 还有 49 个 |
+| ... | 还有 47 个 |
 </details>
 
 ---

@@ -8,13 +8,13 @@
 
 | 特性 | `Custom_Clash_Lite.yaml` | `Custom_Clash.yaml` | `Custom_Clash_Lite_Fallback.yaml` | `Custom_Clash_DIY&Airport.yaml` | `Custom_Clash_Selfhosted_Provider_Fallback.yaml` | `Custom_Clash_Fallback.yaml` | `Custom_Clash_Full.yaml` | `Complete_YAML_Configuration_Template.yaml` | `Custom_Clash_Full_Fallback.yaml` | `Custom_Clash_GFW.yaml` | `Custom_Clash_Selfhosted_Manual_Fallback.yaml` | `Custom_Clash_GFW_Fallback.yaml` |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 11.3 KB | 17.4 KB | 20.5 KB | 17.9 KB | 45.4 KB | 43.2 KB | 36.5 KB | 44.0 KB | 35.5 KB | 3.1 KB | 45.8 KB | 3.1 KB |
+| **大小** | 11.3 KB | 17.4 KB | 20.5 KB | 17.9 KB | 45.4 KB | 43.2 KB | 36.5 KB | 44.0 KB | 36.3 KB | 3.1 KB | 45.8 KB | 3.1 KB |
 | **混合端口** | - | - | - | - | - | - | - | 7893 | - | - | - | - |
 | **面板地址** | - | - | - | 127.0.0.1:9090 | - | - | - | 0.0.0.0:9090 | - | - | - | - |
 | **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule |
 | **TUN** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | 🚫 | 🚫 | 🚫 | 🚫 |
-| **策略组** | **19** | **35** | **19** | **33** | **36** | **35** | **52** | **35** | **51** | **3** | **36** | **2** |
-| **规则数** | **26** | **47** | **26** | **51** | **47** | **47** | **54** | **47** | **53** | **5** | **47** | **5** |
+| **策略组** | **19** | **35** | **19** | **33** | **36** | **35** | **52** | **35** | **52** | **3** | **36** | **2** |
+| **规则数** | **26** | **47** | **26** | **51** | **47** | **47** | **54** | **47** | **54** | **5** | **47** | **5** |
 
 ## 📄 配置详情
 
@@ -263,10 +263,10 @@
 </details>
 
 #### 📝 Custom_Clash_Full_Fallback.yaml
-- **路径**: `Custom_Clash_Full_Fallback.yaml` | **大小**: 35.5 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full_Fallback.yaml)
+- **路径**: `Custom_Clash_Full_Fallback.yaml` | **大小**: 36.3 KB | [查看源码](https://github.com/gogyt/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full_Fallback.yaml)
 - **模式**: rule | **TUN**: 🚫 | **IPv6**: 🚫
 <details>
-<summary>🔍 策略组 (51个)</summary>
+<summary>🔍 策略组 (52个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -290,7 +290,7 @@
 | 🔧 🎻 Spotify | `fallback` |
 | 🔧 📺 Bahamut | `fallback` |
 | 🔧 🌎 国外媒体 | `fallback` |
-| ... | 还有 31 个 |
+| ... | 还有 32 个 |
 </details>
 
 #### 📝 Custom_Clash_GFW.yaml
