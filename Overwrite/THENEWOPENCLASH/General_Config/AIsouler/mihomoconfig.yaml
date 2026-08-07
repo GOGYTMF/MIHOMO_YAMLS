@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - mihomoconfig.yaml
-# 生成日期：2026-08-02
+# 生成日期：2026-08-07
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/AIsouler/mihomoconfig.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -1000,6 +1000,8 @@
 # - PROCESS-NAME,com.hush.yamby,Emby
 # - PROCESS-NAME,com.jellycine.app,Emby
 # - PROCESS-NAME,com.mountains.hills,Emby
+# - PROCESS-NAME,RodelPlayer.App.exe,Emby
+# - PROCESS-NAME,com.feifeiduck.capyplayer,Emby
 # - RULE-SET,pikpak,PikPak
 # - RULE-SET,spotify,Spotify
 # - RULE-SET,cryptocurrency,Crypto

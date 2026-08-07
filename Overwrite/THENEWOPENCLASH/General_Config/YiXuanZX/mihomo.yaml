@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - mihomo.yaml
-# 生成日期：2026-08-02
+# 生成日期：2026-08-07
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/YiXuanZX/mihomo.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -91,6 +91,7 @@
 #       enable: true
 #       interval: 600
 #       lazy: false
+#       timeout: 3000
 #       url: https://www.apple.com/library/test/success.html
 #     interval: 86400
 #     path: ./proxy_providers/provider1.yaml
@@ -113,6 +114,7 @@
 #   interval: 600
 #   lazy: false
 #   name: 香港
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 # - filter: (?i)新加坡|sg
@@ -121,6 +123,7 @@
 #   interval: 600
 #   lazy: false
 #   name: 新加坡
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 # - filter: (?i)日本|jp
@@ -129,6 +132,7 @@
 #   interval: 600
 #   lazy: false
 #   name: 日本
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 # - filter: (?i)美国|us
@@ -137,6 +141,7 @@
 #   interval: 600
 #   lazy: false
 #   name: 美国
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 # - exclude-filter: (?i)剩余|到期|香港|hk|新加坡|sg|日本|jp|美国|us
@@ -145,6 +150,7 @@
 #   interval: 600
 #   lazy: false
 #   name: 其他
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 # - default-selected: 香港
@@ -158,6 +164,7 @@
 #   - 日本
 #   - 美国
 #   - 其他
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 # - default-selected: 美国
@@ -166,6 +173,7 @@
 #   lazy: false
 #   name: AI
 #   proxies: *id001
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 # - default-selected: 香港
@@ -174,6 +182,7 @@
 #   lazy: false
 #   name: TG
 #   proxies: *id001
+#   timeout: 3000
 #   type: select
 #   url: https://www.apple.com/library/test/success.html
 

@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - Custom_Clash_Full_Fallback.yaml
-# 生成日期：2026-08-02
+# 生成日期：2026-08-07
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/Aethersailor/Custom_Clash_Full_Fallback.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -607,6 +607,31 @@
 # - expected-status: 204
 #   interval: 300
 #   lazy: false
+#   name: 🪙 加密货币
+#   proxies:
+#   - 🇭🇰 香港节点
+#   - 🇺🇸 美国节点
+#   - 🇯🇵 日本节点
+#   - 🇸🇬 新加坡节点
+#   - 🇼🇸 台湾节点
+#   - 🇰🇷 韩国节点
+#   - 🇨🇦 加拿大节点
+#   - 🇬🇧 英国节点
+#   - 🇫🇷 法国节点
+#   - 🇩🇪 德国节点
+#   - 🇳🇱 荷兰节点
+#   - 🇹🇷 土耳其节点
+#   - 🇷🇺 俄罗斯节点
+#   - 🌐 其他地区
+#   - 🏠 家宽节点
+#   - 🐢 低倍率节点
+#   - ♻️ 自动选择
+#   timeout: 5000
+#   type: fallback
+#   url: https://cp.cloudflare.com/generate_204
+# - expected-status: 204
+#   interval: 300
+#   lazy: false
 #   name: 📢 谷歌FCM
 #   proxies:
 #   - 🇭🇰 香港节点
@@ -1142,6 +1167,7 @@
 # - GEOSITE,category-pt,⏬ PT站点
 # - GEOSITE,paypal,💳 PayPal
 # - GEOSITE,category-ecommerce,🛒 国外电商
+# - GEOSITE,category-cryptocurrency,🪙 加密货币
 # - GEOSITE,gfw,🚀 故障转移
 # - GEOIP,telegram,💬 即时通讯,no-resolve
 # - GEOIP,twitter,🌐 社交媒体,no-resolve
