@@ -4,8 +4,8 @@ source "$(dirname "$0")/lib_fetch.sh"
 echo "📦 Processing Smart Mode Configs..."
 
 TASKS=$(cat <<'EOF'
-https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/GeoSmartAIO.yaml|THEYAMLS/Smart_Mode/gogyt/GeoSmartAIO.yaml
-https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleSmartAIO.yaml|THEYAMLS/Smart_Mode/gogyt/RuleSmartAIO.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/GeoSmart.yaml|THEYAMLS/Smart_Mode/gogyt/GeoSmart.yaml
+https://raw.githubusercontent.com/gogyt/Mihomo/refs/heads/main/yaml/RuleSmart.yaml|THEYAMLS/Smart_Mode/gogyt/RuleSmart.yaml
 
 https://raw.githubusercontent.com/666OS/YYDS/refs/heads/main/mihomo/config/legacy/OneSmartPro.yaml|THEYAMLS/Smart_Mode/666OS/OneSmartPro.yaml
 https://raw.githubusercontent.com/666OS/YYDS/main/mihomo/config/legacy/OneSmart.yaml|THEYAMLS/Smart_Mode/666OS/OneSmart.yaml
