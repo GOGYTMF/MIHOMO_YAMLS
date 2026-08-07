@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - RuleLite.yaml
-# 生成日期：2026-08-02
+# 生成日期：2026-08-07
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/gogyt/RuleLite.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -84,7 +84,7 @@
 #
 # proxy-providers:
 #   Airport1:
-#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|0.5x|0.1x|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
+#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
 #     health-check: &id001
 #       enable: true
 #       interval: 300
@@ -96,7 +96,7 @@
 #     type: http
 #     url: Airport1订阅源地址
 #   Airport2:
-#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|0.5x|0.1x|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
+#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
 #     health-check: *id001
 #     interval: 86400
 #     override:
@@ -194,7 +194,7 @@
 #   proxies:
 #   - DIRECT
 #   type: select
-# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2)).*$
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
 #   include-all: true
 #   name: 狮城策略
@@ -203,7 +203,7 @@
 #   - 狮城均衡-散列
 #   - 狮城自动
 #   type: select
-# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2)).*$
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
 #   include-all: true
 #   name: 香港策略
@@ -212,7 +212,7 @@
 #   - 香港均衡-散列
 #   - 香港自动
 #   type: select
-# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2)).*$
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
 #   include-all: true
 #   name: 日本策略
@@ -221,7 +221,7 @@
 #   - 日本均衡-散列
 #   - 日本自动
 #   type: select
-# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia|5x)).*$
+# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia)).*$
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
 #   include-all: true
 #   name: 美国策略
@@ -230,7 +230,7 @@
 #   - 美国均衡-散列
 #   - 美国自动
 #   type: select
-# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2)).*$
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
 #   include-all: true
 #   name: 台湾策略
@@ -239,7 +239,7 @@
 #   - 台湾均衡-散列
 #   - 台湾自动
 #   type: select
-# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2)).*$
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
 #   include-all: true
 #   name: 欧盟策略
@@ -248,7 +248,7 @@
 #   - 欧盟均衡-散列
 #   - 欧盟自动
 #   type: select
-# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2)).*$
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
 #   include-all: true
 #   name: 韩国策略
@@ -266,7 +266,7 @@
 #   - 冷门均衡-散列
 #   - 冷门自动
 #   type: select
-# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
 #   include-all: true
@@ -276,7 +276,7 @@
 #   strategy: consistent-hashing
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
 #   include-all: true
@@ -286,7 +286,7 @@
 #   strategy: consistent-hashing
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
 #   include-all: true
@@ -296,7 +296,7 @@
 #   strategy: consistent-hashing
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
 #   include-all: true
@@ -306,7 +306,7 @@
 #   strategy: consistent-hashing
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
 #   include-all: true
@@ -316,7 +316,7 @@
 #   strategy: consistent-hashing
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia|5x)).*$
+# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
 #   include-all: true
@@ -326,7 +326,7 @@
 #   strategy: consistent-hashing
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
 #   include-all: true
@@ -346,7 +346,7 @@
 #   strategy: consistent-hashing
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
 #   include-all: true
@@ -356,7 +356,7 @@
 #   strategy: round-robin
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
 #   include-all: true
@@ -366,7 +366,7 @@
 #   strategy: round-robin
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
 #   include-all: true
@@ -376,7 +376,7 @@
 #   strategy: round-robin
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
 #   include-all: true
@@ -386,7 +386,7 @@
 #   strategy: round-robin
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
 #   include-all: true
@@ -396,7 +396,7 @@
 #   strategy: round-robin
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia|5x)).*$
+# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
 #   include-all: true
@@ -406,7 +406,7 @@
 #   strategy: round-robin
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
 #   include-all: true
@@ -426,7 +426,7 @@
 #   strategy: round-robin
 #   type: load-balance
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(港|🇭🇰|HK|Hong|HKG))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
 #   include-all: true
@@ -435,7 +435,7 @@
 #   name: 香港自动
 #   type: url-test
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
 #   include-all: true
@@ -444,7 +444,7 @@
 #   name: 台湾自动
 #   type: url-test
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
 #   include-all: true
@@ -453,7 +453,7 @@
 #   name: 狮城自动
 #   type: url-test
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK))(?!.*(尼日利亚|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
 #   include-all: true
@@ -462,7 +462,7 @@
 #   name: 日本自动
 #   type: url-test
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
 #   include-all: true
@@ -471,7 +471,7 @@
 #   name: 韩国自动
 #   type: url-test
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia|5x)).*$
+# - filter: ^(?=.*(?i)(美|🇺🇸|US|USA|JFK|SJC|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD))(?!.*(Plus|Australia)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
 #   include-all: true
@@ -480,7 +480,7 @@
 #   name: 美国自动
 #   type: url-test
 #   url: https://www.google.com/generate_204
-# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2|5x)).*$
+# - filter: ^(?=.*(?i)(奥|比|保|克罗地亚|塞|捷|丹|爱沙|芬|法|德|希|匈|爱尔|意|拉|立|卢|马其它|荷|波|葡|罗|斯洛伐|斯洛文|西|瑞|英|🇧🇪|🇨🇿|🇩🇰|🇫🇮|🇫🇷|🇩🇪|🇮🇪|🇮🇹|🇱🇹|🇱🇺|🇳🇱|🇵🇱|🇸🇪|🇬🇧|CDG|FRA|AMS|MAD|BCN|FCO|MUC|BRU))(?!.*(排除1|排除2)).*$
 #   hidden: true
 #   icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
 #   include-all: true
@@ -533,66 +533,18 @@
 #     interval: 86400
 #     type: http
 #     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Direct_Domain.mrs
-#   Custom_Direct_IP:
-#     behavior: ipcidr
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Direct_IP.mrs
-#   Custom_Direct_Port:
-#     behavior: classical
-#     format: yaml
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Direct_Classical_Port.yaml
-#   Custom_Port_Direct:
-#     behavior: classical
-#     format: yaml
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Port_Direct.yaml
-#   Custom_Proxy_Domain:
-#     behavior: domain
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Proxy_Domain.mrs
-#   Custom_Proxy_IP:
-#     behavior: ipcidr
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Proxy_IP.mrs
 #   My_Direct:
 #     behavior: classical
 #     format: yaml
 #     interval: 86400
 #     type: http
 #     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Direct.yaml
-#   My_Proxy:
-#     behavior: classical
-#     format: yaml
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Proxy.yaml
 #   Speedtest:
 #     behavior: domain
 #     format: mrs
 #     interval: 86400
 #     type: http
 #     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/geo/geosite/speedtest.mrs
-#   Steam_CDN_Domain:
-#     behavior: domain
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Steam_CDN_Domain.mrs
-#   Steam_CDN_IP:
-#     behavior: ipcidr
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Steam_CDN_IP.mrs
 #   adblock:
 #     behavior: domain
 #     format: mrs
@@ -783,17 +735,11 @@
 # - RULE-SET,category-ads-all,REJECT
 # - RULE-SET,AWAvenueAds,REJECT
 # - RULE-SET,adblock,REJECT
-# - RULE-SET,My_Direct,直接连接
 # - RULE-SET,private,直接连接
 # - RULE-SET,private_IP,直接连接,no-resolve
+# - RULE-SET,My_Direct,直接连接
 # - RULE-SET,Custom_Direct_Domain,直接连接
-# - RULE-SET,Custom_Direct_IP,直接连接,no-resolve
-# - RULE-SET,Custom_Direct_Port,直接连接
-# - RULE-SET,Custom_Proxy_Domain,默认代理
-# - RULE-SET,Custom_Proxy_IP,默认代理,no-resolve
 # - RULE-SET,google-cn,直接连接
-# - RULE-SET,Steam_CDN_Domain,直接连接
-# - RULE-SET,Steam_CDN_IP,直接连接,no-resolve
 # - RULE-SET,category-game-platforms-download,直接连接
 # - RULE-SET,steam@cn,直接连接
 # - RULE-SET,category-games@cn,直接连接
@@ -817,7 +763,6 @@
 # - RULE-SET,fastly_IP,默认直连,no-resolve
 # - RULE-SET,cn,直接连接
 # - RULE-SET,cn_IP,直接连接,no-resolve
-# - RULE-SET,Custom_Port_Direct,直接连接
 # - MATCH,漏网之鱼
 
 # ==========================================================

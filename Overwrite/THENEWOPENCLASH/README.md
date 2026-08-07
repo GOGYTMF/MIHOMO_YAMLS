@@ -40,6 +40,7 @@
 | 📁 **[General_Config/bgpeer](./General_Config/bgpeer/README.md)** | 1 个 |
 | 📁 **[General_Config/echs-top](./General_Config/echs-top/README.md)** | 1 个 |
 | 📁 **[General_Config/fufu](./General_Config/fufu/README.md)** | 1 个 |
+| 📁 **[General_Config/gogyt](./General_Config/gogyt/README.md)** | 9 个 |
 | 📁 **[General_Config/huohuczq](./General_Config/huohuczq/README.md)** | 2 个 |
 | 📁 **[General_Config/iKeLee](./General_Config/iKeLee/README.md)** | 2 个 |
 | 📁 **[General_Config/liandu2024](./General_Config/liandu2024/README.md)** | 5 个 |

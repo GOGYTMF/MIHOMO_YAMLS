@@ -126,7 +126,7 @@
 #     interval: 86400
 #     override:
 #       additional-suffix: ' [中]'
-#       dialer-proxy: 中转服务
+#       dialer-proxy: 链式代理
 #     proxy: 国内直连
 #     type: http
 #     url: 填写你的落地订阅源地址
@@ -158,6 +158,17 @@
 #   - 冷门节点-手选
 #   - 全部节点-手选
 #   - 国内直连
+#   type: select
+# - icon: https://img.icons8.com/fluency/256/workflow.png
+#   name: 链式代理
+#   proxies:
+#   - 香港-故转
+#   - 日本-故转
+#   - 狮城-故转
+#   - 台湾-故转
+#   - 美国-故转
+#   - 冷门节点-手选
+#   - 全部节点-手选
 #   type: select
 # - icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/AI.png
 #   name: AI
@@ -226,16 +237,6 @@
 #   proxies:
 #   - DIRECT
 #   type: select
-# - filter: HK|TW
-#   hidden: true
-#   icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Round_Robin.png
-#   interval: 60
-#   lazy: true
-#   name: 中转服务
-#   type: load-balance
-#   url: https://cp.cloudflare.com/generate_204
-#   use:
-#   - 优质服务商
 # - hidden: true
 #   icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Hong_Kong.png
 #   interval: 60
@@ -412,6 +413,14 @@
 #   interval: 60
 #   lazy: true
 #   name: 美国-手选
+#   type: select
+#   url: https://cp.cloudflare.com/generate_204
+# - filter: (?i)家宽
+#   icon: https://img.icons8.com/fluency/256/home.png
+#   include-all: true
+#   interval: 60
+#   lazy: true
+#   name: 家宽-手选
 #   type: select
 #   url: https://cp.cloudflare.com/generate_204
 # - filter: ^(?i).*(0\.01|0\.[1-8]|下载|实验).*$

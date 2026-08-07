@@ -4,15 +4,15 @@
 
 | 文件名 | proxy-providers | Raw 链接 |
 | :--- | :--- | :--- |
-| **GeoAIO.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/GeoAIO.yaml) |
-| **GeoAIOPro.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/GeoAIOPro.yaml) |
+| **Geo.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/Geo.yaml) |
 | **GeoLite.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/GeoLite.yaml) |
 | **GeoLitePro.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/GeoLitePro.yaml) |
-| **RuleAIO.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/RuleAIO.yaml) |
-| **RuleAIOPlus.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/RuleAIOPlus.yaml) |
-| **RuleAIOPro.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/RuleAIOPro.yaml) |
+| **GeoPro.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/GeoPro.yaml) |
+| **Rule.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/Rule.yaml) |
 | **RuleLite.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/RuleLite.yaml) |
 | **RuleLitePro.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/RuleLitePro.yaml) |
+| **RulePlus.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/RulePlus.yaml) |
+| **RulePro.yaml** | Airport1、Airport2 | [下载/查看](https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/Overwrite/THENEWOPENCLASH/General_Config/gogyt/RulePro.yaml) |
 
 ---
 [🔙 返回总览](../README.md)

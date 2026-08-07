@@ -1,5 +1,5 @@
 # OpenClash 覆写模块 - GeoLite.yaml
-# 生成日期：2026-08-02
+# 生成日期：2026-08-07
 # 源文件：https://raw.githubusercontent.com/gogyt/MIHOMO_YAMLS/main/THEYAMLS/General_Config/gogyt/GeoLite.yaml
 # 格式：新版 OpenClash [YAML] 块覆写
 #
@@ -84,7 +84,7 @@
 #
 # proxy-providers:
 #   Airport1:
-#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|0.5x|0.1x|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
+#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
 #     health-check: &id001
 #       enable: true
 #       interval: 300
@@ -96,7 +96,7 @@
 #     type: http
 #     url: Airport1订阅源地址
 #   Airport2:
-#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|0.5x|0.1x|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
+#     filter: ^(?!.*(客户端|特殊|如果|导致|一下|教程|测试|剩余|套餐|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))
 #     health-check: *id001
 #     interval: 86400
 #     override:
@@ -533,66 +533,18 @@
 #     interval: 86400
 #     type: http
 #     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Direct_Domain.mrs
-#   Custom_Direct_IP:
-#     behavior: ipcidr
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Direct_IP.mrs
-#   Custom_Direct_Port:
-#     behavior: classical
-#     format: yaml
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Direct_Classical_Port.yaml
-#   Custom_Port_Direct:
-#     behavior: classical
-#     format: yaml
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Port_Direct.yaml
-#   Custom_Proxy_Domain:
-#     behavior: domain
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Proxy_Domain.mrs
-#   Custom_Proxy_IP:
-#     behavior: ipcidr
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Custom_Proxy_IP.mrs
 #   My_Direct:
 #     behavior: classical
 #     format: yaml
 #     interval: 86400
 #     type: http
 #     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Direct.yaml
-#   My_Proxy:
-#     behavior: classical
-#     format: yaml
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Proxy.yaml
 #   Speedtest:
 #     behavior: domain
 #     format: mrs
 #     interval: 86400
 #     type: http
 #     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/geo/geosite/speedtest.mrs
-#   Steam_CDN_Domain:
-#     behavior: domain
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Steam_CDN_Domain.mrs
-#   Steam_CDN_IP:
-#     behavior: ipcidr
-#     format: mrs
-#     interval: 86400
-#     type: http
-#     url: https://testingcf.jsdelivr.net/gh/gogyt/Mihomo@main/rule/Steam_CDN_IP.mrs
 #   adblock:
 #     behavior: domain
 #     format: mrs
@@ -621,17 +573,11 @@
 # - GEOSITE,category-ads-all,REJECT
 # - RULE-SET,AWAvenueAds,REJECT
 # - RULE-SET,adblock,REJECT
-# - RULE-SET,My_Direct,直接连接
 # - GEOSITE,private,直接连接
 # - GEOSITE,private,直接连接,no-resolve
+# - RULE-SET,My_Direct,直接连接
 # - RULE-SET,Custom_Direct_Domain,直接连接
-# - RULE-SET,Custom_Direct_IP,直接连接,no-resolve
-# - RULE-SET,Custom_Direct_Port,直接连接
-# - RULE-SET,Custom_Proxy_Domain,默认代理
-# - RULE-SET,Custom_Proxy_IP,默认代理,no-resolve
 # - GEOSITE,google-cn,直接连接
-# - RULE-SET,Steam_CDN_Domain,直接连接
-# - RULE-SET,Steam_CDN_IP,直接连接,no-resolve
 # - GEOSITE,category-game-platforms-download,直接连接
 # - GEOSITE,steam@cn,直接连接
 # - GEOSITE,category-games@cn,直接连接
@@ -655,7 +601,6 @@
 # - GEOIP,fastly,默认直连,no-resolve
 # - GEOSITE,cn,直接连接
 # - GEOIP,cn,直接连接,no-resolve
-# - RULE-SET,Custom_Port_Direct,直接连接
 # - MATCH,漏网之鱼
 
 # ==========================================================
